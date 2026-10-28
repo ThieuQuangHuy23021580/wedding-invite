@@ -170,32 +170,96 @@
     for (var j = 0; j < items.length; j++) io.observe(items[j]);
   }
 
+
   /* ---------------------------------------------------------- RSVP form */
   function initForm() {
-    var form = document.querySelector('form');
+    var form = document.getElementById('1l75m7by');
     if (!form) return;
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var data = {};
-      var fields = form.querySelectorAll('input, select, textarea');
-      for (var i = 0; i < fields.length; i++) {
-        data[fields[i].getAttribute('name') || 'field' + i] = fields[i].value;
-      }
-      data.submittedAt = new Date().toISOString();
-      try {
-        var list = JSON.parse(localStorage.getItem('wedding-rsvp') || '[]');
-        list.push(data);
-        localStorage.setItem('wedding-rsvp', JSON.stringify(list));
-      } catch (err) { /* storage unavailable */ }
 
-      var note = document.getElementById('rsvp-thanks');
-      if (note) {
-        note.textContent = 'Cảm ơn bạn đã xác nhận sự mặt của bạn!';
-        note.style.display = 'block';
+    var customSubmit = form.querySelector('.com-button');
+
+    if (customSubmit) {
+      customSubmit.addEventListener('click', function (e) {
+        if (e.target.closest('button')) return;
+
+        e.preventDefault();
+        form.requestSubmit();
+      });
+    }
+
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      var data = {
+        full_name: form.elements['full_name'].value.trim(),
+        bancuadaure: form.elements['bancuadaure'].value.trim(),
+        guiloichuc: form.elements['guiloichuc'].value.trim(),
+        ban_se_tham_du_chu:
+          form.elements['ban_se_tham_du_chu'].value
+      };
+
+      if (!data.full_name) {
+        alert('Vui lòng nhập tên của bạn.');
+        return;
       }
-      form.reset();
+
+      if (!data.ban_se_tham_du_chu) {
+        alert('Vui lòng xác nhận bạn có tham dự hay không.');
+        return;
+      }
+
+      var buttonText = form.querySelector('.button-text');
+      var originalText = buttonText
+        ? buttonText.textContent
+        : '';
+
+      if (buttonText) buttonText.textContent = 'ĐANG GỬI...';
+
+      try {
+        var response = await fetch('/api/submit', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        });
+
+        var result = await response.json();
+
+        if (!response.ok) {
+          throw new Error(
+            result.message || 'Không thể gửi thông tin.'
+          );
+        }
+
+        // Hiển thị thông báo sau khi API xác nhận lưu thành công.
+        var note = document.getElementById('rsvp-thanks');
+
+        if (note) {
+          note.textContent =
+            'Cảm ơn bạn đã xác nhận tham dự và gửi lời chúc!';
+          note.style.display = 'block';
+        } else {
+          alert('Gửi lời chúc thành công! Cảm ơn bạn.');
+        }
+
+        form.reset();
+
+      } catch (err) {
+        console.error('RSVP submission failed:', err);
+        alert(
+          err.message ||
+          'Gửi thông tin thất bại. Vui lòng thử lại.'
+        );
+
+      } finally {
+        if (buttonText) {
+          buttonText.textContent = originalText;
+        }
+      }
     });
   }
+
 
   /* ---------------------------------------------------------- music icon */
   function initMusic() {

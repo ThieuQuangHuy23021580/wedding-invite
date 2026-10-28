@@ -1,0 +1,15 @@
+{
+  "name": "wedding-invite",
+  "version": "1.0.0",
+  "description": "Bản tái tạo độc lập của trang thiệp cưới `https://e.ewedding.site/DungvaUyen-`, dựng lại từ đầu bằng HTML/CSS/JS thuần (không framework, không build step).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^178.0.0"
+  }
+}
