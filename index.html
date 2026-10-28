@@ -64,6 +64,72 @@
     white-space: nowrap !important;
     word-break: normal !important;
 }
+/* Add room around the story calendar and RSVP content; keep section backgrounds full-height. */
+#w-p12kr6sz {
+    height: 694px !important;
+}
+#w-97eo26nr {
+    top: 316px !important;
+}
+#w-0vnq5hek {
+    top: 423px !important;
+    height: 271px !important;
+}
+#w-qnmbfkxc {
+    height: 509px !important;
+}
+#w-9umqqm48 {
+    height: 560px !important;
+}
+#w-1dcdn9zn {
+    top: 425px !important;
+}
+#w-1l75m7by {
+    height: 369px !important;
+}
+#w-lzb1s5z7 {
+    top: 268.5px !important;
+}
+#w-ub2hjzl9,
+#w-1dcdn9zn {
+    isolation: isolate;
+}
+@property --guidance-glow-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+}
+#w-ub2hjzl9::after,
+#w-1dcdn9zn::after {
+    content: "";
+    position: absolute;
+    inset: -3px;
+    padding: 3px;
+    border-radius: 9px;
+    background: conic-gradient(
+        from var(--guidance-glow-angle),
+        transparent 0deg 245deg,
+        rgba(255, 183, 56, 0.16) 270deg,
+        rgba(255, 203, 75, 0.72) 305deg,
+        rgba(255, 248, 210, 1) 330deg,
+        rgba(255, 178, 42, 0.88) 346deg,
+        transparent 360deg
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    filter: drop-shadow(0 0 5px rgba(255, 185, 45, 0.95)) drop-shadow(0 0 9px rgba(255, 214, 104, 0.58));
+    animation: guidance-glow-spin 2.1s linear infinite;
+    pointer-events: none;
+    z-index: 2;
+}
+@keyframes guidance-glow-spin {
+    to { --guidance-glow-angle: 360deg; }
+}
+@media (prefers-reduced-motion: reduce) {
+    #w-ub2hjzl9::after,
+    #w-1dcdn9zn::after { animation: none; }
+}
 .scroll-reveal {
     opacity: 0;
     transform: translateY(24px);
