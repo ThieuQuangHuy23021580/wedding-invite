@@ -2,7 +2,17 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=420, user-scalable=no, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<script>
+(function () {
+    function fitInviteToScreen() {
+        var scale = Math.min(1, document.documentElement.clientWidth / 420);
+        document.documentElement.style.setProperty("--invite-scale", String(scale));
+    }
+    fitInviteToScreen();
+    window.addEventListener("resize", fitInviteToScreen, { passive: true });
+})();
+</script>
 <title>Hoàng Hiệp &amp; Cẩm Vân | Thiệp cưới online</title>
 <meta name="description" content="Thiệp cưới online của Trung Dũng &amp; Ngọc Uyên - 20.01.2026">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,6 +57,10 @@
     -webkit-animation-duration: 0.5s !important;
     animation-delay: 0s !important;
     -webkit-animation-delay: 0s !important;
+}
+.pageview {
+    width: 420px;
+    zoom: var(--invite-scale, 1);
 }
 .scroll-reveal {
     opacity: 0;
