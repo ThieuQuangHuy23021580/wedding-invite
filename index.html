@@ -7,6 +7,7 @@
 <meta name="description" content="Thiệp cưới online của Trung Dũng &amp; Ngọc Uyên - 20.01.2026">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="/assets/fonts/thiep-6.ttf" as="font" type="font/ttf" crossorigin>
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900|Trirong:100,300,400,700,900|Tinos:100,300,400,700,900|Noto%20Serif:100,300,400,700,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/vendor/animatev4.css">
 <link rel="stylesheet" href="/assets/vendor/iconfont.css">
@@ -38,6 +39,13 @@
     background: url("/assets/img/cdn-17.webp") center / contain no-repeat;
     pointer-events: none;
     z-index: 5;
+}
+/* Tiêu đề đầu trang hiện nhanh ngay khi tải */
+#w-busqx5pl.animation .text-block-css {
+    animation-duration: 0.5s !important;
+    -webkit-animation-duration: 0.5s !important;
+    animation-delay: 0s !important;
+    -webkit-animation-delay: 0s !important;
 }
 .scroll-reveal {
     opacity: 0;
