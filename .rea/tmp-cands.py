@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw
 
-src = Image.open('assets/img/DMI_1426.jpg').convert('RGB')
+src = Image.open('assets/img/DMI_1426.webp').convert('RGB')
 W, H = src.size          # 4716 x 7074
 print('source', src.size)
 

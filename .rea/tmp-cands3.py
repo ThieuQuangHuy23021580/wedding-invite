@@ -1,6 +1,6 @@
 from PIL import Image
 
-src = Image.open('assets/img/DMI_1426.jpg').convert('RGB')
+src = Image.open('assets/img/DMI_1426.webp').convert('RGB')
 W, H = src.size                                  # 4716 x 7074
 BAN_W, BAN_H = 420, 280                          # css px
 EXPORT = 2                                      # 2x for retina
