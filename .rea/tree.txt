@@ -1,0 +1,463 @@
+﻿node : <anonymous_script>:1
+At C:\Users\Admin\AppData\Local\Temp\ps-script-753d036e-fb31-4281-80df-c94377c24661.ps1:87 char:1
++ node .rea\tree.mjs 2>&1 | Out-File -Encoding utf8 .rea\tree.txt; Get- ...
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (<anonymous_script>:1:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+{"CONST":{"MOBILE_ONLY":true,"VERSION_ID":"80147c80-db8b-4a24-b38b-b0adbbbee2a4","AUTO_SAVE_DRAFT":true,"AUTO_SAVE_INFO
+_USER":false,"AUTO_COMPLETE_FORM_IN_POPUP":false,"SEND_TO_THANK_PAGE":true,"GG_ADS_CONSENT_MODE":false,"GG_TAG_MANAGER_
+CONSENT_MODE":false,"MOBILE_WIDTH":420,"DESKTOP_WIDTH":960,"PAGE_ID":"3c1fcaec-b012-4799-8ef6-1d2c9f526ae9","TITLE":"D┼
+¿NG & UY├èN","COUNTRY":"84","TYPE":1,"COPY_MESSAGE":{"Success":"─É├ú sao ch├⌐p!","Failed":"Sao ch├⌐p thß║Ñt 
+bß║íi!"},"LANG_TRANSLATION":{"file_exceed_size":"File kh├┤ng ─æ╞░ß╗úc v╞░ß╗út qu├í 16MB","img_exceed_size":"K├¡ch 
+th╞░ß╗¢c ß║únh kh├┤ng ─æ╞░ß╗úc v╞░ß╗út qu├í 5000x5000","upload_failed":"Tß║úi l├¬n thß║Ñt bß║íi!","form_blocked":"Form 
+─æ├ú bß╗ï chß║╖n do IP, tß╗½ kh├│a hoß║╖c sß╗æ ─æiß╗çn thoß║íi bß╗ï cß║Ñm!","phone_number_unavailable":"Sß╗æ ─æiß╗çn 
+thoß║íi cß╗ºa bß║ín kh├┤ng hß╗úp lß╗ç!"},"REGEX_PHONE_VALIDATOR":"^(\\+84|84|0)(3([2-9])|5(2|5|6|8|9)|7(0|[6-9])|8([1-9
+])|9([0-4]|[6-9]))([0-9]{7})$","DEFAULT_KEYS":["email","full_name","first_name","last_name","address","phone_number","p
+rovince_id","district_id","commune_id","province_id/district_id/commune_id"],"GOOGLE_API_KEY":"AIzaSyBtswC9pVaBFryGs_42
+G4ZJKw-U0XBCUTU","BODY_FONT_SIZE":12,"NOTIFY_IMG_DEFAULT":"/assets/img/extra-100.webp","LOCALES_TIME":{"vietnam":"vi-VN
+","english":"en-US","indonesian":"id-ID","filipino":"fil-PH","khmer":"km-KH","thai":"th-TH","malay":"ms-MY"},"GRID_ICON
+_NEXT":"<img src=\"/assets/img/extra-101.svg">","GRID_ICON_PREV":"<img src=\"/assets/img/extra-102.svg">","PLACEHOLDER_
+IMAGE":"/assets/img/extra-103.webp","ICON_FLASH_SALE":"/assets/img/extra-104.webp","LANG_LIST_PROD_CURRENCY":{"STILL":{
+"VND":"C├▓n","THB":"α╕äα╕Ñα╕▒α╕ç","IDR":"Tetap","USD":"Still","USD.Spanish":"Quedan","EUR.Portuguese":"Restam"},"PROD":
+{"VND":"sß║ún phß║⌐m","THB":"α╕èα╕┤α╣ëα╕Ö","IDR":"produk","USD":"product","USD.Spanish":"Producto","EUR.Portuguese":"Pr
+oduto"},"ADD_TO_CART":{"VND":"Th├¬m v├áo giß╗Å h├áng","THB":"α╕½α╕óα╕┤α╕Üα╣âα╕¬α╣êα╕òα╕░α╕üα╕úα╣ëα╕▓","IDR":"Masukkan 
+ke keranjang","USD":"Add to cart","USD.Spanish":"A├▒adir al carrito","EUR.Portuguese":"Adicionar ao 
+carrinho"},"QUANTITY":{"VND":"Sß╗æ l╞░ß╗úng","THB":"α╕¢α╕úα╕┤α╕íα╕▓α╕ô","IDR":"Kuantitas","USD":"Quantity","USD.Spanish
+":"Cantidad","EUR.Portuguese":"Quantidade"},"BUY_NOW":{"VND":"Mua ngay","THB":"α╕ïα╕╖α╣ëα╕¡α╣Çα╕Ñα╕ó","IDR":"Beli 
+sekarang","USD":"Buy now","USD.Spanish":"Comprar ahora","EUR.Portuguese":"Comprar agora"},"CODE_PROD":{"VND":"M├ú 
+sß║ún phß║⌐m","THB":"α╕úα╕½α╕▒α╕¬α╕¬α╕┤α╕Öα╕äα╣ëα╕▓","IDR":"Kode Produk","USD":"Code product","USD.Spanish":"C├│digo 
+de producto","EUR.Portuguese":"C├│digo do produto"},"SEARCH_PROD":{"VND":"T├¼m kiß║┐m sß║ún 
+phß║⌐m","THB":"α╕äα╣ëα╕Öα╕½α╕▓α╕¬α╕┤α╕Öα╕äα╣ëα╕▓","IDR":"Cari produk","USD":"Search product","USD.Spanish":"Buscar 
+producto(s)","EUR.Portuguese":"Buscar produto(s)"},"DESCRIPTION":{"VND":"M├┤ tß║ú","USD":"Description","THB":"α╕¡α╕ÿα╕┤
+α╕Üα╕▓α╕ó","IDR":"menggambarkan","USD.Spanish":"Descripci├│n","EUR.Portuguese":"Descri├º├úo"},"SOLD":{"VND":"─É├ú b├ín"
+,"USD":"Sold","THB":"α╕éα╕▓α╕óα╣üα╕Ñα╣ëα╕º","IDR":"Terjual","USD.Spanish":"Vendidos","EUR.Portuguese":"Vendidos"},"NOT_
+EMPTY":{"VND":"Kh├┤ng ─æ╞░ß╗úc ─æß╗â trß╗æng","USD":"Not 
+Empty","THB":"α╣Çα╕ºα╣ëα╕Öα╕ºα╣êα╕▓α╕çα╣äα╕ºα╣ëα╣äα╕íα╣êα╣äα╕öα╣ë","IDR":"tidak boleh dikosongkan","USD.Spanish":"No 
+puede estar vac├¡o","EUR.Portuguese":"N├úo pode estar vazio"},"NO_FIND_PROD":{"VND":"Kh├┤ng t├¼m thß║Ñy sß║ún 
+phß║⌐m","USD":"No products found","THB":"α╣äα╕íα╣êα╕₧α╕Üα╕¬α╕┤α╕Öα╕äα╣ëα╕▓","IDR":"Tidak ada produk yang 
+ditemukan","USD.Spanish":"No se encontraron productos","EUR.Portuguese":"Nenhum produto encontrado"},"DISCOUNT":{"VND":
+"GIß║óM","USD":"OFF","THB":"α╕¬α╣êα╕ºα╕Öα╕Ñα╕ö","IDR":"DISKON","USD.Spanish":"Descuento","EUR.Portuguese":"Desconto"},"
+SOLD_OUT":{"VND":"Sß║«P CH├üY H├ÇNG","USD":"SOLD OUT SOON","THB":"α╕éα╕▓α╕óα╕½α╕íα╕öα╣Çα╕úα╣çα╕ºα╣å 
+α╕Öα╕╡α╣ë","IDR":"segera terjual","USD.Spanish":"┬í├Ültimas 
+unidades!","EUR.Portuguese":"Esgotando!"},"USE_CODE":{"VND":"Nhß║¡p 
+m├ú","USD":"Use","THB":"α╣âα╕èα╣ë","IDR":"menggunakan","USD.Spanish":"Introducir c├│digo","EUR.Portuguese":"Insira o 
+c├│digo"},"APPLY":{"VND":"├üP Dß╗ñNG","USD":"APPLY","THB":"α╕Öα╕│α╕íα╕▓α╣âα╕èα╣ë","IDR":"BERLAKU","USD.Spanish":"APLICA
+R","EUR.Portuguese":"APLICAR"},"BONUS":{"VND":"Tß║╖ng 
+k├¿m","USD":"Bonus","THB":"α╣éα╕Üα╕Öα╕▒α╕¬","IDR":"bonus","USD.Spanish":"De regalo","EUR.Portuguese":"De 
+brinde"},"ORG_PRICE":{"VND":"Gi├í gß╗æc","USD":"Full 
+price","THB":"α╕äα╣êα╕▓α╣âα╕èα╣ëα╕êα╣êα╕▓α╕ó","IDR":"Biaya","USD.Spanish":"Precio original","EUR.Portuguese":"Pre├ºo 
+original"},"PRICE":{"VND":"Gi├í b├ín","USD":"Price","THB":"α╕úα╕▓α╕äα╕▓","IDR":"Harga","USD.Spanish":"Precio de 
+venta","EUR.Portuguese":"Pre├ºo de venda"},"COUPON_SUCCESS":{"VND":"─É├ú ├íp dß╗Ñng coupon!","USD":"Coupon 
+applied!","THB":"α╣âα╕èα╣ëα╕äα╕╣α╕¢α╕¡α╕çα╣üα╕Ñα╣ëα╕º!","IDR":"Kupon berlaku!","USD.Spanish":"┬íCup├│n 
+aplicado!","EUR.Portuguese":"Cupom aplicado!"},"COUPON_FAILED":{"VND":"M├ú coupon kh├┤ng khß║ú dß╗Ñng!","USD":"Invalid 
+coupon!","THB":"α╕äα╕╣α╕¢α╕¡α╕çα╣äα╕íα╣êα╕ûα╕╣α╕üα╕òα╣ëα╕¡α╕ç!","IDR":"Kupon tidak valid!","USD.Spanish":"┬íCup├│n no 
+v├ílido!","EUR.Portuguese":"C├│digo de cupom inv├ílido!"},"COUPON_EMPTY":{"VND":"Vui l├▓ng nhß║¡p 
+coupon!","USD":"Please enter coupon!","THB":"α╕üα╕úα╕╕α╕ôα╕▓α╕üα╕úα╕¡α╕üα╕äα╕╣α╕¢α╕¡α╕ç!","IDR":"Silakan masukkan 
+kupon!","USD.Spanish":"┬íPor favor, introduce un cup├│n!","EUR.Portuguese":"Por favor, insira um cupom!"},"HOUR":{"VND"
+:"Giß╗¥","USD":"Hours","THB":"α╕èα╕▒α╣êα╕ºα╣éα╕íα╕ç","IDR":"Jam","USD.Spanish":"Hora(s)","EUR.Portuguese":"Hora(s)"},"M
+INUTE":{"VND":"Ph├║t","USD":"Minutes","THB":"α╕Öα╕▓α╕ùα╕╡","IDR":"Menit","USD.Spanish":"Minuto(s)","EUR.Portuguese":"Mi
+nuto(s)"},"SECOND":{"VND":"Gi├óy","USD":"Seconds","THB":"α╕ùα╕╡α╣êα╕¬α╕¡α╕ç","IDR":"Kedua","USD.Spanish":"Segundo(s)","
+EUR.Portuguese":"Segundo(s)"},"SALE_COUNTDOWN":{"VND":"Thß╗¥i gian khuyß║┐n mß║íi chß╗ë c├▓n","USD":"Promotion end 
+in","THB":"α╣éα╕¢α╕úα╣éα╕íα╕èα╕▒α╣êα╕Öα╕½α╕íα╕öα╣Çα╕éα╕ò","IDR":"Promosi berakhir pada","USD.Spanish":"La oferta 
+termina env","EUR.Portuguese":"Tempo restante da promo├º├úo"},"COPY_SUCCESS":{"VND":"─É├ú sao ch├⌐p!","USD":"Copied!","
+THB":"α╕äα╕▒α╕öα╕Ñα╕¡α╕üα╣üα╕Ñα╣ëα╕º!","IDR":"Disalin!","USD.Spanish":"┬íCopiado!","EUR.Portuguese":"Copiado!"},"COPY_F
+AILED":{"VND":"Sao ch├⌐p thß║Ñt bß║íi!","USD":"Copy 
+Failed!","THB":"α╕äα╕▒α╕öα╕Ñα╕¡α╕üα╣äα╕íα╣êα╕¬α╕│α╣Çα╕úα╣çα╕ê!","IDR":"Penyalinan gagal!","USD.Spanish":"┬íError al 
+copiar!","EUR.Portuguese":"Falha ao copiar!"},"WARNING_SURVEY":{"VND":"Chß╗ìn gi├í trß╗ï trong survey","USD":"Select 
+values in the 
+survey","THB":"α╣Çα╕Ñα╕╖α╕¡α╕üα╕äα╣êα╕▓α╕ùα╕╡α╣êα╕òα╣ëα╕¡α╕çα╕üα╕▓α╕úα╣âα╕Öα╣üα╕Üα╕Üα╕¬α╕│α╕úα╕ºα╕ê","IDR":"Pilih 
+nilai dalam survei","USD.Spanish":" Seleccione un valor en la encuesta","EUR.Portuguese":"Selecione um valor na 
+pesquisa"}},"LANG_CRM_CALENDAR":{"CRM_INVALID_SELECTED_DATE":{"USD":"The selected date is not 
+valid.","USD.Spanish":"La fecha seleccionada no es v├ílida.","EUR.Portuguese":"A data seleccionada n├úo ├⌐ 
+v├ílida.","VND":"Ng├áy ─æ├ú chß╗ìn kh├┤ng hß╗úp 
+lß╗ç.","THB":"α╕ºα╕▒α╕Öα╕ùα╕╡α╣êα╣Çα╕Ñα╕╖α╕¡α╕üα╣äα╕íα╣êα╕ûα╕╣α╕üα╕òα╣ëα╕¡α╕ç","IDR":"Tanggal yang dipilih tidak 
+valid."},"CRM_INVALID_SELECTED_TIME":{"USD":"The selected time is not valid.","USD.Spanish":"La hora seleccionada no 
+es v├ílida.","EUR.Portuguese":"A hora seleccionada n├úo ├⌐ v├ílida.","VND":"Thß╗¥i gian ─æ├ú chß╗ìn kh├┤ng hß╗úp 
+lß╗ç.","THB":"α╣Çα╕ºα╕Ñα╕▓α╕ùα╕╡α╣êα╣Çα╕Ñα╕╖α╕¡α╕üα╣äα╕íα╣êα╕ûα╕╣α╕üα╕òα╣ëα╕¡α╕ç","IDR":"Waktu yang dipilih tidak 
+valid."},"CRM_CALENDAR":{"TODAY":{"USD.Spanish":"Hoy","USD":"Today","EUR.Portuguese":"Hoje","VND":"H├┤m 
+nay","THB":"α╕ºα╕▒α╕Öα╕Öα╕╡α╣ë","IDR":"Hari 
+ini"},"NOW":{"USD.Spanish":"Hoy","USD":"Today","EUR.Portuguese":"Hoje","VND":"B├óy giß╗¥","THB":"α╕òα╕¡α╕Öα╕Öα╕╡α╣ë","I
+DR":"Sekarang"},"CLEAR":{"USD.Spanish":"Borrar","USD":"Clear","EUR.Portuguese":"Limpar","VND":"X├│a","THB":"α╕Ñα╣ëα╕▓α╕
+ç","IDR":"Hapus"},"APPLY":{"USD":"Apply","USD.Spanish":"Aplicar","EUR.Portuguese":"Aplicar","VND":"├üp dß╗Ñng","THB":"α
+╕Öα╕│α╣äα╕¢α╣âα╕èα╣ë","IDR":"Terapkan"},"SHORT_MONTHS":{"JAN":{"USD":"Jan","USD.Spanish":"Ene","EUR.Portuguese":"Jan","
+VND":"Th├íng 
+1","THB":"α╕í.α╕ä.","IDR":"Jan"},"FEB":{"USD":"Feb","USD.Spanish":"Feb","EUR.Portuguese":"Fev","VND":"Th├íng 
+2","THB":"α╕ü.α╕₧.","IDR":"Feb"},"MAR":{"USD":"Mar","USD.Spanish":"Mar","EUR.Portuguese":"Mar","VND":"Th├íng 
+3","THB":"α╕íα╕╡.α╕ä.","IDR":"Mar"},"APR":{"USD":"Apr","USD.Spanish":"Abr","EUR.Portuguese":"Abr","VND":"Th├íng 
+4","THB":"α╣Çα╕í.α╕ó.","IDR":"Apr"},"MAY":{"USD":"May","USD.Spanish":"May","EUR.Portuguese":"Mai","VND":"Th├íng 
+5","THB":"α╕₧.α╕ä.","IDR":"Mei"},"JUN":{"USD":"Jun","USD.Spanish":"Jun","EUR.Portuguese":"Jun","VND":"Th├íng 
+6","THB":"α╕íα╕┤.α╕ó.","IDR":"Jun"},"JUL":{"USD":"Jul","USD.Spanish":"Jul","EUR.Portuguese":"Jul","VND":"Th├íng 
+7","THB":"α╕ü.α╕ä.","IDR":"Jul"},"AUG":{"USD":"Aug","USD.Spanish":"Ago","EUR.Portuguese":"Ago","VND":"Th├íng 
+8","THB":"α╕¬.α╕ä.","IDR":"Agu"},"SEP":{"USD":"Sep","USD.Spanish":"Sep","EUR.Portuguese":"Set","VND":"Th├íng 
+9","THB":"α╕ü.α╕ó.","IDR":"Sep"},"OCT":{"USD":"Oct","USD.Spanish":"Oct","EUR.Portuguese":"Out","VND":"Th├íng 
+10","THB":"α╕ò.α╕ä.","IDR":"Okt"},"NOV":{"USD":"Nov","USD.Spanish":"Nov","EUR.Portuguese":"Nov","VND":"Th├íng 
+11","THB":"α╕₧.α╕ó.","IDR":"Nov"},"DEC":{"USD":"Dec","USD.Spanish":"Dic","EUR.Portuguese":"Dez","VND":"Th├íng 12","THB"
+:"α╕ÿ.α╕ä.","IDR":"Des"}},"FULL_MONTHS":{"JAN":{"USD":"January","USD.Spanish":"Enero","EUR.Portuguese":"Janeiro","VND":
+"Th├íng 1","THB":"α╕íα╕üα╕úα╕▓α╕äα╕í","IDR":"Januari"},"FEB":{"USD":"February","USD.Spanish":"Febrero","EUR.Portuguese"
+:"Fevereiro","VND":"Th├íng 2","THB":"α╕üα╕╕α╕íα╕áα╕▓α╕₧α╕▒α╕Öα╕ÿα╣î","IDR":"Februari"},"MAR":{"USD":"March","USD.Spanis
+h":"Marzo","EUR.Portuguese":"Mar├ºo","VND":"Th├íng 3","THB":"α╕íα╕╡α╕Öα╕▓α╕äα╕í","IDR":"Maret"},"APR":{"USD":"April","U
+SD.Spanish":"Abril","EUR.Portuguese":"Abril","VND":"Th├íng 4","THB":"α╣Çα╕íα╕⌐α╕▓α╕óα╕Ö","IDR":"April"},"MAY":{"USD":"M
+ay","USD.Spanish":"Mayo","EUR.Portuguese":"Maio","VND":"Th├íng 5","THB":"α╕₧α╕ñα╕⌐α╕áα╕▓α╕äα╕í","IDR":"Mei"},"JUN":{"US
+D":"June","USD.Spanish":"Junio","EUR.Portuguese":"Junho","VND":"Th├íng 6","THB":"α╕íα╕┤α╕ûα╕╕α╕Öα╕▓α╕óα╕Ö","IDR":"Juni"
+},"JUL":{"USD":"July","USD.Spanish":"Julio","EUR.Portuguese":"Julho","VND":"Th├íng 7","THB":"α╕üα╕úα╕üα╕Äα╕▓α╕äα╕í","ID
+R":"Juli"},"AUG":{"USD":"August","USD.Spanish":"Agosto","EUR.Portuguese":"Agosto","VND":"Th├íng 8","THB":"α╕¬α╕┤α╕çα╕½α
+╕▓α╕äα╕í","IDR":"Agustus"},"SEP":{"USD":"September","USD.Spanish":"Septiembre","EUR.Portuguese":"Setembro","VND":"Th├ín
+g 9","THB":"α╕üα╕▒α╕Öα╕óα╕▓α╕óα╕Ö","IDR":"September"},"OCT":{"USD":"October","USD.Spanish":"Octubre","EUR.Portuguese":"
+Outubro","VND":"Th├íng 10","THB":"α╕òα╕╕α╕Ñα╕▓α╕äα╕í","IDR":"Oktober"},"NOV":{"USD":"November","USD.Spanish":"Noviembre
+","EUR.Portuguese":"Novembro","VND":"Th├íng 11","THB":"α╕₧α╕ñα╕¿α╕êα╕┤α╕üα╕▓α╕óα╕Ö","IDR":"November"},"DEC":{"USD":"Dec
+ember","USD.Spanish":"Diciembre","EUR.Portuguese":"Dezembro","VND":"Th├íng 12","THB":"α╕ÿα╕▒α╕Öα╕ºα╕▓α╕äα╕í","IDR":"Des
+ember"}},"WEEKDAYS":{"SU":{"USD":"Su","USD.Spanish":"Do","EUR.Portuguese":"Do","VND":"CN","THB":"α╕¡α╕▓.","IDR":"Min"},
+"MO":{"USD":"Mo","USD.Spanish":"Lu","EUR.Portuguese":"Se","VND":"T2","THB":"α╕ê.","IDR":"Sen"},"TU":{"USD":"Tu","USD.Sp
+anish":"Ma","EUR.Portuguese":"Te","VND":"T3","THB":"α╕¡.","IDR":"Sel"},"WE":{"USD":"We","USD.Spanish":"Mi","EUR.Portugu
+ese":"Qu","VND":"T4","THB":"α╕₧.","IDR":"Rab"},"TH":{"USD":"Th","USD.Spanish":"Ju","EUR.Portuguese":"Qu","VND":"T5","TH
+B":"α╕₧α╕ñ.","IDR":"Kam"},"FR":{"USD":"Fr","USD.Spanish":"Vi","EUR.Portuguese":"Sx","VND":"T6","THB":"α╕¿.","IDR":"Jum"
+},"SA":{"USD":"Sa","USD.Spanish":"Sa","EUR.Portuguese":"Sa","VND":"T7","THB":"α╕¬.","IDR":"Sab"}}}},"ALLOW_PLAY_MULTIPL
+E_VIDEO":false},"runtime":{"vm":{"es5t2vbw":{"type":"section","specials":{"imageCompression":true,"metaHeight":"1136","
+metaWidth":"640","src":"/assets/img/extra-105.webp"},"id":"es5t2vbw","children":["busqx5pl","3gqkr7q8"],"mobile":{"font
+Size":"35"}},"busqx5pl":{"type":"text-block","specials":{"tag":"h3","text":"Save our wedding date"},"id":"busqx5pl","de
+sktop":{"animation":{"delay":0,"duration":1,"name":"slideInUp","repeat":null},"fontSize":"65"},"mobile":{"animation":{"
+delay":0,"duration":1,"name":"slideInUp","repeat":null},"fontSize":"65"},"$parent":"es5t2vbw"},"3gqkr7q8":{"type":"grou
+p","specials":{},"id":"3gqkr7q8","children":["c4npnjmv","mnwzt5oq","eu6zrsxi","moefqb14","yhfl89fs","44fh0kb7","rtnweim
+d","6uumx4vy"],"$parent":"es5t2vbw"},"c4npnjmv":{"type":"image-block","specials":{"compressible":true,"imageCompression
+":true,"src":"/assets/img/cdn-2.webp"},"id":"c4npnjmv","$parent":"3gqkr7q8"},"mnwzt5oq":{"type":"image-block","specials
+":{"compressible":true,"imageCompression":true,"src":"/assets/img/extra-107.webp"},"id":"mnwzt5oq","$parent":"3gqkr7q8"
+},"eu6zrsxi":{"type":"image-block","specials":{"compressible":true,"enable_background_compare":false,"imageCompression"
+:true,"src":"/assets/img/cdn-4.webp"},"id":"eu6zrsxi","desktop":{"animation":{"delay":0,"duration":2,"name":"slideInUp"
+,"repeat":null}},"mobile":{"animation":{"delay":0,"duration":2,"name":"slideInUp","repeat":null}},"$parent":"3gqkr7q8"}
+,"moefqb14":{"type":"group","specials":{"src":"/assets/img/extra-108.webp"},"id":"moefqb14","children":["lm5j4vvh","3va
+4ksjp"],"desktop":{"animation":{"delay":0,"duration":2,"name":"slideInUp","repeat":null}},"mobile":{"animation":{"delay
+":0,"duration":2,"name":"slideInUp","repeat":null}},"$parent":"3gqkr7q8"},"lm5j4vvh":{"type":"image-block","specials":{
+"compressible":true,"enable_background_compare":false,"imageCompression":true,"src":"/assets/img/extra-109.webp"},"id":
+"lm5j4vvh","$parent":"moefqb14"},"3va4ksjp":{"type":"image-block","specials":{"compressible":true,"enable_background_co
+mpare":false,"imageCompression":true,"src":"/assets/img/cdn-4.webp"},"id":"3va4ksjp","$parent":"moefqb14"},"yhfl89fs":{
+"type":"image-block","specials":{"compressible":true,"imageCompression":true,"src":"/assets/img/extra-110.webp"},"id":"
+yhfl89fs","$parent":"3gqkr7q8"},"44fh0kb7":{"type":"image-block","specials":{"compressible":true,"imageCompression":tru
+e,"src":"/assets/img/extra-110.webp"},"id":"44fh0kb7","$parent":"3gqkr7q8"},"rtnweimd":{"type":"rectangle","specials":{
+"src":"/assets/img/extra-105.webp"},"id":"rtnweimd","$parent":"3gqkr7q8"},"6uumx4vy":{"type":"image-block","specials":{
+"compressible":true,"imageCompression":true,"src":"/assets/img/extra-107.webp"},"id":"6uumx4vy","desktop":{"animation":
+{"delay":0,"duration":1,"name":"fadeInUp","repeat":null}},"mobile":{"animation":{"delay":0,"duration":1,"name":"fadeInU
+p","repeat":null}},"$parent":"3gqkr7q8"},"4vhgsiyz":{"type":"section","specials":{"imageCompression":true},"id":"4vhgsi
+yz","children":["5yfukctj","maknrq4x","gby6jsoh","4pvwgsk6","4p7r77yn","ub2hjzl9","0yldu4gw","x802mdoj"],"mobile":{"fon
+tSize":"35"}},"5yfukctj":{"type":"image-block","specials":{"compressible":true,"imageCompression":true,"src":"/assets/i
+mg/extra-111.webp"},"id":"5yfukctj","$parent":"4vhgsiyz"},"maknrq4x":{"type":"text-block","specials":{"tag":"h2","text"
+:"K├ìNH Mß╗£I THAM Dß╗░ TIß╗åC CHUNG VUI Cß╗ªA GIA ─É├îNH CH├ÜNG T├öI"},"id":"maknrq4x","desktop":{"animation":{"delay"
+:0,"duration":2,"name":"slideInUp","repeat":null},"fontSize":"19"},"mobile":{"animation":{"delay":0,"duration":2,"name"
+:"slideInUp","repeat":null},"fontSize":"19"},"$parent":"4vhgsiyz"},"gby6jsoh":{"type":"group","specials":{},"id":"gby6j
+soh","children":["y0fuujkq","5q4du1jr"],"desktop":{"animation":{"delay":0,"duration":2,"name":"zoomIn","repeat":null}},
+"mobile":{"animation":{"delay":0,"duration":2,"name":"zoomIn","repeat":null}},"$parent":"4vhgsiyz"},"y0fuujkq":{"type":
+"text-block","specials":{"tag":"h2","text":"TRUNG D┼¿NG<br>NGß╗îC UY├èN<br>"},"id":"y0fuujkq","desktop":{"fontSize":"35
+"},"mobile":{"fontSize":"35"},"$parent":"gby6jsoh"},"5q4du1jr":{"type":"text-block","specials":{"tag":"h2","text":"&amp
+;<br>"},"id":"5q4du1jr","desktop":{"fontSize":"35"},"mobile":{"fontSize":"35"},"$parent":"gby6jsoh"},"4pvwgsk6":{"type"
+:"image-block","specials":{"compressible":true,"imageCompression":true,"src":"/assets/img/extra-112.webp"},"id":"4pvwgs
+k6","$parent":"4vhgsiyz"},"4p7r77yn":{"type":"group","specials":{},"id":"4p7r77yn","children":["tgzzv519","l3t8ja18"],"
+$parent":"4vhgsiyz"},"tgzzv519":{"type":"group","specials":{},"id":"tgzzv519","children":["qhy9zs0u","u2o77rn1","v6ab7w
+lv","mzfnuptp"],"$parent":"4p7r77yn"},"qhy9zs0u":{"type":"group","specials":{},"id":"qhy9zs0u","children":["jtdy2kzu","
+91hv1nlc","4xjfbfcm","yb7lr6kd","tzlcdwp1"],"$parent":"tgzzv519"},"jtdy2kzu":{"type":"text-block","specials":{"tag":"h2
+","text":"11:30, THß╗¿ BA"},"id":"jtdy2kzu","desktop":{"animation":{"delay":0,"duration":2,"name":"fadeInUp","repeat":n
+ull},"fontSize":"17"},"mobile":{"animation":{"delay":0,"duration":2,"name":"fadeInUp","repeat":null},"fontSize":"17"},"
+$parent":"qhy9zs0u"},"91hv1nlc":{"type":"text-block","specials":{"tag":"h2","text":"20.01.2026"},"id":"91hv1nlc","deskt
+op":{"animation":{"delay":0,"duration":2,"name":"zoomIn","repeat":null},"fontSize":"25"},"mobile":{"animation":{"delay"
+:0,"duration":2,"name":"zoomIn","repeat":null},"fontSize":"25"},"$parent":"qhy9zs0u"},"4xjfbfcm":{"type":"line","specia
+ls":{},"id":"4xjfbfcm","$parent":"qhy9zs0u"},"yb7lr6kd":{"type":"line","specials":{},"id":"yb7lr6kd","$parent":"qhy9zs0
+u"},"tzlcdwp1":{"type":"text-block","specials":{"tag":"h2","text":"( Tß╗⌐c ng├áy 02 th├íng 12 n─âm ß║ñt Tß╗╡ )"},"id":"
+tzlcdwp1","desktop":{"animation":{"delay":0,"duration":2,"name":"fadeInUp","repeat":null},"fontSize":"14"},"mobile":{"a
+nimation":{"delay":0,"duration":2,"name":"fadeInUp","repeat":null},"fontSize":"14"},"$parent":"qhy9zs0u"},"u2o77rn1":{"
+type":"text-block","specials":{"tag":"h2","text":"Hß╗ÿI TR╞»ß╗£NG Tß║ªNG 2"},"id":"u2o77rn1","desktop":{"animation":{"d
+elay":0,"duration":2,"name":"fadeInUp","repeat":null},"fontSize":"16"},"mobile":{"animation":{"delay":0,"duration":2,"n
+ame":"fadeInUp","repeat":null},"fontSize":"16"},"$parent":"tgzzv519"},"v6ab7wlv":{"type":"text-block","specials":{"tag"
+:"h2","text":"TRß╗ÉNG ─Éß╗ÆNG PALACE H├Ç ─É├öNG<br>"},"id":"v6ab7wlv","desktop":{"animation":{"delay":0,"duration":2,"n
+ame":"fadeInUp","repeat":null},"fontSize":"20"},"mobile":{"animation":{"delay":0,"duration":2,"name":"fadeInUp","repeat
+":null},"fontSize":"20"},"$parent":"tgzzv519"},"mzfnuptp":{"type":"text-block","specials":{"tag":"h2","text":"Trung 
+t├óm th╞░╞íng mß║íi Melinh Plaza<br>L├┤ II, Khu TTHC mß╗¢i H├á ─É├┤ng, P. H├á ─É├┤ng, H├á Nß╗Öi<br>"},"id":"mzfnuptp","
+desktop":{"animation":{"delay":0,"duration":2,"name":"fadeInUp","repeat":null},"fontSize":"15"},"mobile":{"animation":{
+"delay":0,"duration":2,"name":"fadeInUp","repeat":null},"fontSize":"15"},"$parent":"tgzzv519"},"l3t8ja18":{"type":"text
+-block","specials":{"tag":"h2","text":"TIß╗åC Mß╗¬NG Lß╗ä TH├ÇNH H├öN"},"id":"l3t8ja18","desktop":{"animation":{"delay"
+:0,"duration":2,"name":"slideInUp","repeat":null},"fontSize":"19"},"mobile":{"animation":{"delay":0,"duration":2,"name"
+:"slideInUp","repeat":null},"fontSize":"19"},"$parent":"4p7r77yn"},"ub2hjzl9":{"type":"button","specials":{"text":"CHß╗
+ê ─É╞»ß╗£NG"},"id":"ub2hjzl9","events":[{"action":"open_link","appTarget":"","hoverColor":"","id":"4fvtoafp","target":"
+https://maps.app.goo.gl/YmWELeSkvdGnVqe96","type":"click"}],"desktop":{"animation":{"delay":0,"duration":1,"name":"puls
+e","repeat":"infinite"},"fontSize":"14"},"mobile":{"animation":{"delay":0,"duration":1,"name":"pulse","repeat":"infinit
+e"},"fontSize":"14"},"$parent":"4vhgsiyz"},"0yldu4gw":{"type":"group","specials":{},"id":"0yldu4gw","children":["ayth8b
+vl","kw8wzi5q"],"desktop":{"animation":{"delay":0,"duration":2,"name":"slideInLeft","repeat":null}},"mobile":{"animatio
+n":{"delay":0,"duration":2,"name":"slideInLeft","repeat":null}},"$parent":"4vhgsiyz"},"ayth8bvl":{"type":"text-block","
+specials":{"tag":"h3","text":"NH├Ç TRAI"},"id":"ayth8bvl","desktop":{"fontSize":"14"},"mobile":{"fontSize":"14"},"$pare
+nt":"0yldu4gw"},"kw8wzi5q":{"type":"text-block","specials":{"tag":"h3","text":"├öng. ─Éß║╖ng V─ân Ph├╣ng<br>B├á. B├╣i 
+Thß╗ï M╞░ß╗¥i<br>"},"id":"kw8wzi5q","desktop":{"fontSize":"12"},"mobile":{"fontSize":"12"},"$parent":"0yldu4gw"},"x802m
+doj":{"type":"group","specials":{},"id":"x802mdoj","children":["e3401gcq","opaxgtmo"],"desktop":{"animation":{"delay":0
+,"duration":2,"name":"slideInRight","repeat":null}},"mobile":{"animation":{"delay":0,"duration":2,"name":"slideInRight"
+,"repeat":null}},"$parent":"4vhgsiyz"},"e3401gcq":{"type":"text-block","specials":{"tag":"h3","text":"NH├Ç G├üI"},"id":
+"e3401gcq","desktop":{"fontSize":"14"},"mobile":{"fontSize":"14"},"$parent":"x802mdoj"},"opaxgtmo":{"type":"text-block"
+,"specials":{"tag":"h3","text":"├öng. Cao Thß╗ì Hß║úi<br>B├á. V┼⌐ Thß╗ï Thu├╜<br>"},"id":"opaxgtmo","desktop":{"fontSiz
+e":"12"},"mobile":{"fontSize":"12"},"$parent":"x802mdoj"},"9umqqm48":{"type":"section","specials":{"imageCompression":t
+rue},"id":"9umqqm48","children":["y495i0mn","chfcbzl0","rlhwoq3c","1dcdn9zn"]},"y495i0mn":{"type":"group","specials":{}
+,"id":"y495i0mn","children":["v5bn6inc","ogzoxw2f"],"$parent":"9umqqm48"},"v5bn6inc":{"type":"group","specials":{},"id"
+:"v5bn6inc","children":["5dirvm4e","8hcsxt23","3soo5lv0","j9icc6ry"],"$parent":"y495i0mn"},"5dirvm4e":{"type":"group","
+specials":{},"id":"5dirvm4e","children":["99hl0nc8","n3fet4xt","1kpwcrfz","oee3g20w","7im8vevu"],"$parent":"v5bn6inc"},
+"99hl0nc8":{"type":"text-block","specials":{"tag":"h2","text":"11:00, CHß╗ª NHß║¼T"},"id":"99hl0nc8","desktop":{"animat
+ion":{"delay":0,"duration":2,"name":"fadeInUp","repeat":null},"fontSize":"17"},"mobile":{"animation":{"delay":0,"durati
+on":2,"name":"fadeInUp","repeat":null},"fontSize":"17"},"$parent":"5dirvm4e"},"n3fet4xt":{"type":"text-block","specials
+":{"tag":"h2","text":"25.01.2026"},"id":"n3fet4xt","desktop":{"animation":{"delay":0,"duration":2,"name":"zoomIn","repe
+at":null},"fontSize":"25"},"mobile":{"animation":{"delay":0,"duration":2,"name":"zoomIn","repeat":null},"fontSize":"25"
+},"$parent":"5dirvm4e"},"1kpwcrfz":{"type":"line","specials":{},"id":"1kpwcrfz","$parent":"5dirvm4e"},"oee3g20w":{"type
+":"line","specials":{},"id":"oee3g20w","$parent":"5dirvm4e"},"7im8vevu":{"type":"text-block","specials":{"tag":"h2","te
+xt":"( Tß╗⌐c ng├áy 07 th├íng 12 n─âm ß║ñt Tß╗╡ )"},"id":"7im8vevu","desktop":{"animation":{"delay":0,"duration":2,"name
+":"fadeInUp","repeat":null},"fontSize":"14"},"mobile":{"animation":{"delay":0,"duration":2,"name":"fadeInUp","repeat":n
+ull},"fontSize":"14"},"$parent":"5dirvm4e"},"8hcsxt23":{"type":"text-block","specials":{"tag":"h2","text":"Tß╗ò chß╗⌐c 
+tß║íi"},"id":"8hcsxt23","desktop":{"animation":{"delay":0,"duration":2,"name":"fadeInUp","repeat":null},"fontSize":"16"
+},"mobile":{"animation":{"delay":0,"duration":2,"name":"fadeInUp","repeat":null},"fontSize":"16"},"$parent":"v5bn6inc"}
+,"3soo5lv0":{"type":"text-block","specials":{"tag":"h2","text":"KH├üCH Sß║áN GRAND VIEW PALACE<br>"},"id":"3soo5lv0","d
+esktop":{"animation":{"delay":0,"duration":2,"name":"fadeInUp","repeat":null},"fontSize":"20"},"mobile":{"animation":{"
+delay":0,"duration":2,"name":"fadeInUp","repeat":null},"fontSize":"20"},"$parent":"v5bn6inc"},"j9icc6ry":{"type":"text-
+block","specials":{"tag":"h2","text":"─É╞░ß╗¥ng Trß║ºn Th├íi T├┤ng, Tß╗ò 6 KP Yß║┐t Ki├¬u 6<br>P. Hß╗ông Gai, TP Hß║í 
+Long, Tß╗ënh Quß║úng Ninh<br>"},"id":"j9icc6ry","desktop":{"animation":{"delay":0,"duration":2,"name":"fadeInUp","repea
+t":null},"fontSize":"15"},"mobile":{"animation":{"delay":0,"duration":2,"name":"fadeInUp","repeat":null},"fontSize":"15
+"},"$parent":"v5bn6inc"},"ogzoxw2f":{"type":"text-block","specials":{"tag":"h2","text":"TIß╗åC Mß╗¬NG Lß╗ä VU QUY"},"id
+":"ogzoxw2f","desktop":{"animation":{"delay":0,"duration":2,"name":"slideInUp","repeat":null},"fontSize":"19"},"mobile"
+:{"animation":{"delay":0,"duration":2,"name":"slideInUp","repeat":null},"fontSize":"19"},"$parent":"y495i0mn"},"chfcbzl
+0":{"type":"image-block","specials":{"compressible":true,"imageCompression":true,"src":"/assets/img/extra-112.webp"},"i
+d":"chfcbzl0","$parent":"9umqqm48"},"rlhwoq3c":{"type":"image-block","specials":{"compressible":true,"imageCompression"
+:true,"src":"/assets/img/extra-113.webp"},"id":"rlhwoq3c","$parent":"9umqqm48"},"1dcdn9zn":{"type":"button","specials":
+{"text":"CHß╗ê ─É╞»ß╗£NG"},"id":"1dcdn9zn","events":[{"action":"open_link","appTarget":"","hoverColor":"","id":"4fvtoaf
+p","target":"https://maps.app.goo.gl/En8E6cyYvvkiPx3v7","type":"click"}],"desktop":{"animation":{"delay":0,"duration":1
+,"name":"pulse","repeat":"infinite"},"fontSize":"14"},"mobile":{"animation":{"delay":0,"duration":1,"name":"pulse","rep
+eat":"infinite"},"fontSize":"14"},"$parent":"9umqqm48"},"3qrrcn1k":{"type":"section","specials":{"imageCompression":tru
+e},"id":"3qrrcn1k","children":["9v9ie4yj","0aezw3he","l2une1lp","6gyx5wa9"]},"9v9ie4yj":{"type":"image-block","specials
+":{"compressible":true,"imageCompression":true,"src":"/assets/img/extra-113.webp"},"id":"9v9ie4yj","$parent":"3qrrcn1k"
+},"0aezw3he":{"type":"group","specials":{},"id":"0aezw3he","children":["qx8do6mh","4fpem3od","s561bkjv","3a2u5vjy","0yd
+stgy1","ni394be4","kg36vot0","rfstl9xe"],"$parent":"3qrrcn1k"},"qx8do6mh":{"type":"text-block","specials":{"tag":"h3","
+text":"Wedding"},"id":"qx8do6mh","desktop":{"animation":{"delay":0,"duration":1,"name":"slideInUp","repeat":null},"font
+Size":"75"},"mobile":{"animation":{"delay":0,"duration":1,"name":"slideInUp","repeat":null},"fontSize":"75"},"$parent":
+"0aezw3he"},"4fpem3od":{"type":"line","specials":{},"id":"4fpem3od","$parent":"0aezw3he"},"s561bkjv":{"type":"group","s
+pecials":{},"id":"s561bkjv","children":["2d0sew94","9hz4fqw5"],"$parent":"0aezw3he"},"2d0sew94":{"type":"text-block","s
+pecials":{"tag":"h3","text":"─É├│n kh├ích"},"id":"2d0sew94","desktop":{"fontSize":"19"},"mobile":{"fontSize":"19"},"$pa
+rent":"s561bkjv"},"9hz4fqw5":{"type":"text-block","specials":{"tag":"h3","text":"11:00"},"id":"9hz4fqw5","desktop":{"fo
+ntSize":"19"},"mobile":{"fontSize":"19"},"$parent":"s561bkjv"},"3a2u5vjy":{"type":"group","specials":{},"id":"3a2u5vjy"
+,"children":["hhu1m6mr","cvmakipj"],"$parent":"0aezw3he"},"hhu1m6mr":{"type":"text-block","specials":{"tag":"h3","text"
+:"Nghi lß╗à - Khai Tiß╗çc<br>"},"id":"hhu1m6mr","desktop":{"fontSize":"19"},"mobile":{"fontSize":"19"},"$parent":"3a2u5
+vjy"},"cvmakipj":{"type":"text-block","specials":{"tag":"h3","text":"11:30"},"id":"cvmakipj","desktop":{"fontSize":"19"
+},"mobile":{"fontSize":"19"},"$parent":"3a2u5vjy"},"0ydstgy1":{"type":"rectangle","specials":{},"id":"0ydstgy1","$paren
+t":"0aezw3he"},"ni394be4":{"type":"rectangle","specials":{},"id":"ni394be4","$parent":"0aezw3he"},"kg36vot0":{"type":"i
+mage-block","specials":{"compressible":true,"imageCompression":true,"src":"/assets/img/extra-114.webp"},"id":"kg36vot0"
+,"$parent":"0aezw3he"},"rfstl9xe":{"type":"image-block","specials":{"compressible":true,"imageCompression":true,"src":"
+/assets/img/extra-115.webp"},"id":"rfstl9xe","$parent":"0aezw3he"},"l2une1lp":{"type":"image-block","specials":{"compre
+ssible":true,"imageCompression":true,"src":"/assets/img/cdn-11.webp"},"id":"l2une1lp","$parent":"3qrrcn1k"},"6gyx5wa9":
+{"type":"text-block","specials":{"tag":"h3","text":"timeline"},"id":"6gyx5wa9","desktop":{"animation":{"delay":0,"durat
+ion":1,"name":"slideInUp","repeat":null},"fontSize":"75"},"mobile":{"animation":{"delay":0,"duration":1,"name":"slideIn
+Up","repeat":null},"fontSize":"75"},"$parent":"3qrrcn1k"},"zsksvzsj":{"type":"section","specials":{"imageCompression":t
+rue},"id":"zsksvzsj","children":["xw9rt28p","1du1fmy3","nhsvbtva","fy7ty3zk","wzrp7kga","ov5l05v9","6mwv0f48","zom3usc7
+","505erjzy"],"mobile":{"fontSize":"75"}},"xw9rt28p":{"type":"image-block","specials":{"compressible":true,"imageCompre
+ssion":true,"src":"/assets/img/cdn-12.webp"},"id":"xw9rt28p","$parent":"zsksvzsj"},"1du1fmy3":{"type":"text-block","spe
+cials":{"tag":"h2","text":"All of me lover all of you"},"id":"1du1fmy3","desktop":{"animation":{"delay":0,"duration":2,
+"name":"zoomIn","repeat":null},"fontSize":"45"},"mobile":{"animation":{"delay":0,"duration":2,"name":"zoomIn","repeat":
+null},"fontSize":"45"},"$parent":"zsksvzsj"},"nhsvbtva":{"type":"group","specials":{},"id":"nhsvbtva","children":["i7nq
+50cd","6zxpsdq5"],"desktop":{"animation":{"delay":0,"duration":2,"name":"rotateInDownLeft","repeat":null}},"mobile":{"a
+nimation":{"delay":0,"duration":2,"name":"rotateInDownLeft","repeat":null}},"$parent":"zsksvzsj"},"i7nq50cd":{"type":"t
+ext-block","specials":{"tag":"h2","text":"Ch├║ rß╗â"},"id":"i7nq50cd","desktop":{"fontSize":"22"},"mobile":{"fontSize":
+"22"},"$parent":"nhsvbtva"},"6zxpsdq5":{"type":"text-block","specials":{"tag":"h2","text":"TRUNG D┼¿NG"},"id":"6zxpsdq5
+","desktop":{"fontSize":"20"},"mobile":{"fontSize":"20"},"$parent":"nhsvbtva"},"fy7ty3zk":{"type":"group","specials":{}
+,"id":"fy7ty3zk","children":["whdmvilc","awnb2i49"],"desktop":{"animation":{"delay":0,"duration":2,"name":"rotateInDown
+Right","repeat":null}},"mobile":{"animation":{"delay":0,"duration":2,"name":"rotateInDownRight","repeat":null}},"$paren
+t":"zsksvzsj"},"whdmvilc":{"type":"text-block","specials":{"tag":"h2","text":"C├┤ d├óu"},"id":"whdmvilc","desktop":{"fo
+ntSize":"22"},"mobile":{"fontSize":"22"},"$parent":"fy7ty3zk"},"awnb2i49":{"type":"text-block","specials":{"tag":"h2","
+text":"NGß╗îC UY├èN"},"id":"awnb2i49","desktop":{"fontSize":"20"},"mobile":{"fontSize":"20"},"$parent":"fy7ty3zk"},"wzr
+p7kga":{"type":"image-block","specials":{"compressible":true,"imageCompression":true,"src":"/assets/img/cdn-13.webp"},"
+id":"wzrp7kga","desktop":{"animation":{"delay":0,"duration":1,"name":"rotateInDownRight","repeat":null}},"mobile":{"ani
+mation":{"delay":0,"duration":1,"name":"rotateInDownRight","repeat":null}},"$parent":"zsksvzsj"},"ov5l05v9":{"type":"im
+age-block","specials":{"compressible":true,"imageCompression":true,"src":"/assets/img/cdn-14.webp"},"id":"ov5l05v9","de
+sktop":{"animation":{"delay":0,"duration":1,"name":"rotateInDownLeft","repeat":null}},"mobile":{"animation":{"delay":0,
+"duration":1,"name":"rotateInDownLeft","repeat":null}},"$parent":"zsksvzsj"},"6mwv0f48":{"type":"image-block","specials
+":{"compressible":true,"imageCompression":true,"src":"/assets/img/extra-110.webp"},"id":"6mwv0f48","$parent":"zsksvzsj"
+},"zom3usc7":{"type":"image-block","specials":{"compressible":true,"imageCompression":true,"src":"/assets/img/extra-112
+.webp"},"id":"zom3usc7","$parent":"zsksvzsj"},"505erjzy":{"type":"image-block","specials":{"compressible":true,"imageCo
+mpression":true,"src":"/assets/img/extra-112.webp"},"id":"505erjzy","$parent":"zsksvzsj"},"p12kr6sz":{"type":"section",
+"specials":{"imageCompression":true},"id":"p12kr6sz","children":["7yd1h6bp","ltrcre3k","gbw7ef4x","97eo26nr","0vnq5hek"
+,"8rs6r7nn","uwtv09ot"]},"7yd1h6bp":{"type":"text-block","specials":{"tag":"h3","text":"Our story"},"id":"7yd1h6bp","de
+sktop":{"animation":{"delay":0,"duration":2,"name":"slideInUp","repeat":null},"fontSize":"80"},"mobile":{"animation":{"
+delay":0,"duration":2,"name":"slideInUp","repeat":null},"fontSize":"80"},"$parent":"p12kr6sz"},"ltrcre3k":{"type":"text
+-block","specials":{"tag":"h3","text":"─É├ím c╞░ß╗¢i cß╗ºa ch├║ng ta kh├┤ng chß╗ë l├á ng├áy trß╗ìng ─æß║íi, m├á l├á 
+khß╗ƒi ─æß║ºu cß╗ºa mß╗Öt cuß╗Öc sß╗æng mß╗¢i, n╞íi t├¼nh y├¬u sß║╜ lu├┤n l├á ngß╗ìn lß╗¡a dß║½n ─æ╞░ß╗¥ng. Ch├║ng ta 
+sß║╜ c├╣ng nhau trß║úi qua mß╗ìi thß╗¡ th├ích v├á niß╗üm vui, vß╗¢i nhß╗»ng lß╗¥i hß╗⌐a trong l├▓ng sß║╜ lu├┤n 
+─æ╞░ß╗úc giß╗» g├¼n. ─É├óy l├á cam kß║┐t ─æß╗â y├¬u th╞░╞íng, ch─âm s├│c, v├á c├╣ng nhau ─æi qua mß╗ìi chß║╖ng 
+─æ╞░ß╗¥ng cß╗ºa cuß╗Öc sß╗æng, b├¬n nhau m├úi m├úi"},"id":"ltrcre3k","desktop":{"animation":{"delay":0,"duration":2,"na
+me":"zoomIn","repeat":null},"fontSize":"15"},"mobile":{"animation":{"delay":0,"duration":2,"name":"zoomIn","repeat":nul
+l},"fontSize":"15"},"$parent":"p12kr6sz"},"gbw7ef4x":{"type":"image-block","specials":{"compressible":true,"imageCompre
+ssion":true,"src":"/assets/img/extra-118.webp"},"id":"gbw7ef4x","$parent":"p12kr6sz"},"97eo26nr":{"type":"group","speci
+als":{},"id":"97eo26nr","children":["9e669brq","7s3z11g9","4q35z857"],"$parent":"p12kr6sz"},"9e669brq":{"type":"rectang
+le","specials":{},"id":"9e669brq","$parent":"97eo26nr"},"7s3z11g9":{"type":"image-block","specials":{"compressible":tru
+e,"imageCompression":true,"src":"/assets/img/extra-119.webp"},"id":"7s3z11g9","$parent":"97eo26nr"},"4q35z857":{"type":
+"text-block","specials":{"tag":"h3","text":"<span style=\"color: rgb(255, 255, 255);\">January</span>"},"id":"4q35z857"
+,"desktop":{"fontSize":"80"},"mobile":{"fontSize":"80"},"$parent":"97eo26nr"},"0vnq5hek":{"type":"group","specials":{},
+"id":"0vnq5hek","children":["57mjnv7b","5wy8x1nf","9rw967v7","fgew5ivb","5ykcpb2a","ol5qcnlp","6hi0i4ut"],"$parent":"p1
+2kr6sz"},"57mjnv7b":{"type":"text-block","specials":{"tag":"h3","text":"<span style=\"color: rgb(255, 255, 255);\">Mon<
+br><br>5<br>12<br>19<br>26<br></span><br>"},"id":"57mjnv7b","desktop":{"fontSize":"19"},"mobile":{"fontSize":"19"},"$pa
+rent":"0vnq5hek"},"5wy8x1nf":{"type":"text-block","specials":{"tag":"h3","text":"<span style=\"color: rgb(255, 255, 255
+);\">Tue<br><br>6\n<br>13\n<br>20\n<br>27\n<br></span><br>"},"id":"5wy8x1nf","desktop":{"fontSize":"19"},"mobile":{"fon
+tSize":"19"},"$parent":"0vnq5hek"},"9rw967v7":{"type":"text-block","specials":{"tag":"h3","text":"<span style=\"color: 
+rgb(255, 255, 255);\">Wed<br><br>7\n<br>14\n<br>21\n<br>28</span><br>"},"id":"9rw967v7","desktop":{"fontSize":"19"},"mo
+bile":{"fontSize":"19"},"$parent":"0vnq5hek"},"fgew5ivb":{"type":"text-block","specials":{"tag":"h3","text":"<span 
+style=\"color: rgb(255, 255, 255);\">Thu<br>1\n<br>8\n<br>15\n<br>22\n<br>29</span><br>"},"id":"fgew5ivb","desktop":{"f
+ontSize":"19"},"mobile":{"fontSize":"19"},"$parent":"0vnq5hek"},"5ykcpb2a":{"type":"text-block","specials":{"tag":"h3",
+"text":"Fri<br>2\r<br>9\r<br>16\r<br>23\r<br>30<br><br>"},"id":"5ykcpb2a","desktop":{"fontSize":"19"},"mobile":{"fontSi
+ze":"19"},"$parent":"0vnq5hek"},"ol5qcnlp":{"type":"text-block","specials":{"tag":"h3","text":"Sat<br>3\r<br>10\r<br>17
+\r<br>24\r<br>31<br>"},"id":"ol5qcnlp","desktop":{"fontSize":"19"},"mobile":{"fontSize":"19"},"$parent":"0vnq5hek"},"6h
+i0i4ut":{"type":"text-block","specials":{"tag":"h3","text":"Sun<br>4<br>11<br>18<br>25<br><br>"},"id":"6hi0i4ut","deskt
+op":{"fontSize":"19"},"mobile":{"fontSize":"19"},"$parent":"0vnq5hek"},"8rs6r7nn":{"type":"image-block","specials":{"co
+mpressible":true,"imageCompression":true,"src":"/assets/img/extra-120.webp"},"id":"8rs6r7nn","desktop":{"animation":{"d
+elay":0,"duration":1,"name":"pulse","repeat":"infinite"}},"mobile":{"animation":{"delay":0,"duration":1,"name":"pulse",
+"repeat":"infinite"}},"$parent":"p12kr6sz"},"uwtv09ot":{"type":"image-block","specials":{"compressible":true,"imageComp
+ression":true,"src":"/assets/img/extra-120.webp"},"id":"uwtv09ot","desktop":{"animation":{"delay":0,"duration":1,"name"
+:"pulse","repeat":"infinite"}},"mobile":{"animation":{"delay":0,"duration":1,"name":"pulse","repeat":"infinite"}},"$par
+ent":"p12kr6sz"},"8rxkfzkw":{"type":"section","specials":{"imageCompression":true},"id":"8rxkfzkw","children":["3vgs46k
+n","05s8szsn"]},"3vgs46kn":{"type":"group","specials":{},"id":"3vgs46kn","children":["tba1clw5","u3quqrz8","l95quxud","
+chvya2ah"],"$parent":"8rxkfzkw"},"tba1clw5":{"type":"image-block","specials":{"compressible":true,"imageCompression":tr
+ue,"src":"/assets/img/cdn-18.webp"},"id":"tba1clw5","$parent":"3vgs46kn"},"u3quqrz8":{"type":"rectangle","specials":{},
+"id":"u3quqrz8","$parent":"3vgs46kn"},"l95quxud":{"type":"text-block","specials":{"tag":"h3","text":"<span 
+style=\"color: rgb(255, 255, 255);\">We Request the Honor of Your Presence</span>"},"id":"l95quxud","desktop":{"fontSiz
+e":"24"},"mobile":{"fontSize":"24"},"$parent":"3vgs46kn"},"chvya2ah":{"type":"image-block","specials":{"compressible":t
+rue,"imageCompression":true,"src":"/assets/img/extra-110.webp"},"id":"chvya2ah","$parent":"3vgs46kn"},"05s8szsn":{"type
+":"group","specials":{},"id":"05s8szsn","children":["zydsyvq9","d7jqakw2"],"$parent":"8rxkfzkw"},"zydsyvq9":{"type":"te
+xt-block","specials":{"tag":"h3","text":"Countdown"},"id":"zydsyvq9","desktop":{"animation":{"delay":0,"duration":2,"na
+me":"slideInUp","repeat":null},"fontSize":"80"},"mobile":{"animation":{"delay":0,"duration":2,"name":"slideInUp","repea
+t":null},"fontSize":"80"},"$parent":"05s8szsn"},"d7jqakw2":{"type":"countdown","specials":{"duration":"60","endTime":"2
+026-01-20T11:30:00","language":"vietnam","showDay":true,"showHour":true,"showSecond":true,"showText":true,"startTime":"
+2025-12-05T12:00:00","type":"duration"},"id":"d7jqakw2","desktop":{"animation":{"delay":0,"duration":2,"name":"slideInU
+p","repeat":null},"fontSize":20},"mobile":{"animation":{"delay":0,"duration":2,"name":"slideInUp","repeat":null},"fontS
+ize":20},"$parent":"05s8szsn"},"ve9e76tf":{"type":"section","specials":{"imageCompression":true},"id":"ve9e76tf","child
+ren":["7lc6ypu2"]},"7lc6ypu2":{"type":"gallery","id":"7lc6ypu2","specials":{"media":[{"imageCompression":true,"link":"/
+assets/img/cdn-19.webp","originLink":"/assets/img/cdn-19.webp","type":"image","typeVideo":"youtube"},{"imageCompression
+":true,"link":"/assets/img/cdn-20.webp","originLink":"/assets/img/cdn-20.webp","type":"image","typeVideo":"youtube"},{"
+imageCompression":true,"link":"/assets/img/cdn-13.webp","originLink":"/assets/img/cdn-13.webp","type":"image","typeVide
+o":"youtube"},{"imageCompression":true,"link":"/assets/img/cdn-22.webp","originLink":"/assets/img/cdn-22.webp","type":"
+image","typeVideo":"youtube"},{"imageCompression":true,"link":"/assets/img/cdn-23.webp","originLink":"/assets/img/cdn-2
+3.webp","type":"image","typeVideo":"youtube"},{"imageCompression":true,"link":"/assets/img/cdn-4.webp","originLink":"/a
+ssets/img/cdn-4.webp","type":"image","typeVideo":"youtube"},{"imageCompression":true,"link":"/assets/img/cdn-18.webp","
+originLink":"/assets/img/cdn-18.webp","type":"image","typeVideo":"youtube"},{"imageCompression":true,"link":"/assets/im
+g/cdn-12.webp","originLink":"/assets/img/cdn-12.webp","type":"image","typeVideo":"youtube"},{"imageCompression":true,"l
+ink":"/assets/img/cdn-25.webp","originLink":"/assets/img/cdn-25.webp","type":"image","typeVideo":"youtube"},{"imageComp
+ression":true,"link":"/assets/img/cdn-26.webp","originLink":"/assets/img/cdn-26.webp","type":"image","typeVideo":"youtu
+be"}]},"desktop":{"height":669,"width":421},"mobile":{"height":669,"width":421},"$parent":"ve9e76tf"},"qnmbfkxc":{"type
+":"section","specials":{"imageCompression":true},"id":"qnmbfkxc","children":["2de9pn0b","1l75m7by","xyw65oel"]},"2de9pn
+0b":{"type":"text-block","specials":{"tag":"p","text":"H├úy x├íc nhß║¡n sß╗▒ c├│ mß║╖t cß╗ºa bß║ín ─æß╗â ch├║ng 
+m├¼nh\nchuß║⌐n bß╗ï ─æ├│n tiß║┐p mß╗Öt c├ích chu ─æ├ío nhß║Ñt.\nTr├ón trß╗ìng! "},"id":"2de9pn0b","desktop":{"animation
+":{"delay":0,"duration":1,"name":"pulse","repeat":null},"fontSize":"19"},"mobile":{"animation":{"delay":0,"duration":1,
+"name":"pulse","repeat":null},"fontSize":"19"},"$parent":"qnmbfkxc"},"1l75m7by":{"type":"form","id":"1l75m7by","special
+s":{"fb_conversion_value":"10000","fb_event_type":"CompleteRegistration","fb_tracking_currency":"VND","multiFormParent"
+:"","popup_target":"g9e9uphm"},"children":["ef06t6ja","lzb1s5z7","zjvwz13a","8izhdtdl","9h01qaa1"],"desktop":{"fontSize
+":13},"mobile":{"fontSize":13},"$parent":"qnmbfkxc"},"ef06t6ja":{"type":"input","specials":{"field_name":"full_name","f
+ield_placeholder":"T├¬n cß╗ºa bß║ín l├á g├¼ 
+?","required":true},"id":"ef06t6ja","$parent":"1l75m7by"},"lzb1s5z7":{"type":"button","specials":{"text":"Gß╗¼I Lß╗£I 
+CH├ÜC &amp; X├üC NHß║¼N"},"id":"lzb1s5z7","desktop":{"fontSize":14},"mobile":{"fontSize":14},"$parent":"1l75m7by"},"zjv
+wz13a":{"type":"input","specials":{"field_name":"bancuadaure","field_placeholder":"Bß║ín l├á kh├ích mß╗¥i cß╗ºa ai ?"},
+"id":"zjvwz13a","$parent":"1l75m7by"},"8izhdtdl":{"type":"textarea","specials":{"field_name":"guiloichuc","field_placeh
+older":"                                                                                                           
+Gß╗¡i lß╗¥i ch├║c ─æß║┐n c├┤ d├óu ch├║ rß╗â"},"id":"8izhdtdl","$parent":"1l75m7by"},"9h01qaa1":{"type":"select","specia
+ls":{"field_name":"ban_se_tham_du_chu","field_placeholder":"Bß║ín sß║╜ tham dß╗▒ chß╗⌐ 
+?","options":[{"id":"rsoiiuah","name":"C├│, chß║»c chß║»c t├┤i sß║╜ 
+─æß║┐n","value":"untitled"},{"id":"urkd0rlj","name":"Xin lß╗ùi, t├┤i bß║¡n mß║Ñt rß╗ôi","value":"untitled"}]},"id":"9h0
+1qaa1","$parent":"1l75m7by"},"xyw65oel":{"type":"image-block","specials":{"imageCompression":true,"src":"/assets/img/ex
+tra-121.webp"},"id":"xyw65oel","$parent":"qnmbfkxc"},"mfenqcev":{"type":"section","specials":{"imageCompression":true},
+"id":"mfenqcev","children":["h2kbzwdd","7kepd4us","eppawcvb","p28mg8b4"]},"h2kbzwdd":{"type":"image-block","specials":{
+"compressible":true,"imageCompression":true,"src":"/assets/img/cdn-4.webp"},"id":"h2kbzwdd","$parent":"mfenqcev"},"7kep
+d4us":{"type":"text-block","specials":{"tag":"p","text":"<span style=\"color: rgb(255, 255, 255);\">Cß║úm ╞ín bß║ín 
+─æ├ú d├ánh t├¼nh cß║úm cho ch├║ng m├¼nh!\n<br>Sß╗▒ hiß╗çn diß╗çn cß╗ºa bß║ín ch├¡nh l├á m├│n qu├á ├╜ ngh─⌐a nhß║Ñt, 
+v├á ch├║ng m├¼nh v├┤ c├╣ng tr├ón qu├╜ khi ─æ╞░ß╗úc c├╣ng bß║ín chia sß║╗ niß╗üm hß║ính ph├║c trong ng├áy trß╗ìng 
+─æß║íi n├áy.<br></span>"},"id":"7kepd4us","desktop":{"animation":{"delay":0,"duration":2,"name":"fadeInUp","repeat":nul
+l},"fontSize":"15"},"mobile":{"animation":{"delay":0,"duration":2,"name":"fadeInUp","repeat":null},"fontSize":"15"},"$p
+arent":"mfenqcev"},"eppawcvb":{"type":"text-block","specials":{"tag":"h3","text":"<span style=\"color: rgb(255, 255, 
+255);\">Thank You!</span>"},"id":"eppawcvb","desktop":{"animation":{"delay":0,"duration":2,"name":"slideInUp","repeat":
+null},"fontSize":"80"},"mobile":{"animation":{"delay":0,"duration":2,"name":"slideInUp","repeat":null},"fontSize":"80"}
+,"$parent":"mfenqcev"},"p28mg8b4":{"type":"group","specials":{},"id":"p28mg8b4","children":["7k369oaw","g9k9tyu9","x79o
+p7cq","n40l3van","4sh6orob"],"$parent":"mfenqcev"},"7k369oaw":{"type":"rectangle","specials":{},"id":"7k369oaw","$paren
+t":"p28mg8b4"},"g9k9tyu9":{"type":"text-block","specials":{"tag":"h4","text":"THIß╗åP C╞»ß╗ÜI ONLINE EWEDDING"},"id":"g
+9k9tyu9","desktop":{"fontSize":"15"},"mobile":{"fontSize":"15"},"$parent":"p28mg8b4"},"x79op7cq":{"type":"rectangle","s
+pecials":{"sample":"social-logo","src":"center center/ contain no-repeat scroll content-box url(/assets/img/cdn-27.webp
+)"},"id":"x79op7cq","events":[{"action":"copy","appTarget":"","hoverColor":"","id":"zssvabb4","target":"0375236642","ty
+pe":"click"}],"$parent":"p28mg8b4"},"n40l3van":{"type":"rectangle","specials":{"sample":"social-logo","src":"center 
+center/ cover no-repeat  content-box url(&quot;/assets/img/cdn-28.webp) border-box"},"id":"n40l3van","events":[{"action
+":"open_link","appTarget":"","hoverColor":"","id":"s4fnoyy6","open_link_with_params":true,"target":"https://www.faceboo
+k.com/eweddingmore","targetURL":"_blank","type":"click"}],"$parent":"p28mg8b4"},"4sh6orob":{"type":"rectangle","special
+s":{"sample":"social-logo","src":"center center/ cover no-repeat  content-box url(&quot;/assets/img/cdn-29.webp) border
+-box"},"id":"4sh6orob","events":[{"action":"open_link","appTarget":"","hoverColor":"","id":"gfwn89cy","open_link_with_p
+arams":true,"target":"m.me/272916879821433","targetURL":"_blank","type":"click"}],"$parent":"p28mg8b4"},"__popup_defaul
+t__":{"type":"popup","specials":{},"id":"__popup_default__","children":["oc2dcqis","pn1igdhr","au0o7yag","au0o7yap"]},"
+oc2dcqis":{"type":"text-block","specials":{"text":"Thank you"},"id":"oc2dcqis","desktop":{"fontSize":28},"mobile":{"fon
+tSize":36},"$parent":"__popup_default__"},"pn1igdhr":{"type":"text-block","specials":{"text":"Your submission has been 
+received! Keep an eye on your phone or email because we will contact you soon."},"id":"pn1igdhr","desktop":{"fontSize":
+16},"mobile":{"fontSize":16},"$parent":"__popup_default__"},"au0o7yag":{"type":"button","specials":{"text":"Close"},"id
+":"au0o7yag","events":[{"action":"close_popup","id":"ixxh483t","target":"__popup_default__","type":"click"}],"$parent":
+"__popup_default__"},"au0o7yap":{"type":"rectangle","specials":{},"id":"au0o7yap","events":[{"action":"close_popup","id
+":"t3jgjr2t","target":"__popup_default__","type":"click"}],"$parent":"__popup_default__"},"g9e9uphm":{"type":"popup","s
+pecials":{"src":"/assets/img/extra-105.webp"},"id":"g9e9uphm","children":["0qmc92yr","urk10j8j","22nzaj9o","srgmvmez","
+qy6ujy4c"]},"0qmc92yr":{"type":"rectangle","specials":{},"id":"0qmc92yr","events":[{"action":"close_popup","id":"t3jgjr
+2z","target":"g9e9uphm","type":"click"}],"$parent":"g9e9uphm"},"urk10j8j":{"type":"image-block","specials":{"compressib
+le":true,"imageCompression":true,"src":"/assets/img/cdn-26.webp"},"id":"urk10j8j","$parent":"g9e9uphm"},"22nzaj9o":{"ty
+pe":"text-block","specials":{"tag":"h3","text":"Ch├ón th├ánh cß║úm ╞ín bß║ín ─æ├ú d├ánh thß╗¥i gian v├á t├¼nh cß║úm 
+cho ch├║ng m├¼nh.<br>Sß╗▒ hiß╗çn diß╗çn v├á quan t├óm cß╗ºa bß║ín l├á niß╗üm hß║ính ph├║c lß╗¢n lao trong ng├áy ─æß║╖c 
+biß╗çt n├áy.<br>"},"id":"22nzaj9o","desktop":{"fontSize":"12"},"mobile":{"fontSize":"12"},"$parent":"g9e9uphm"},"srgmvm
+ez":{"type":"text-block","specials":{"tag":"h3","text":"Thank You!<br>"},"id":"srgmvmez","desktop":{"fontSize":"40"},"m
+obile":{"fontSize":"40"},"$parent":"g9e9uphm"},"qy6ujy4c":{"type":"image-block","specials":{"compressible":true,"imageC
+ompression":true,"src":"/assets/img/extra-107.webp"},"id":"qy6ujy4c","$parent":"g9e9uphm"},"hxevtsoh":{"type":"popup","
+specials":{"src":"/assets/img/extra-105.webp"},"id":"hxevtsoh","children":["qjvn8bc0","t017f2lt","hvkabvlx","ztt2ek0t",
+"56ix719w","o1lk6qej"]},"qjvn8bc0":{"type":"rectangle","specials":{},"id":"qjvn8bc0","events":[{"action":"close_popup",
+"id":"t3jgjr2z","target":"hxevtsoh","type":"click"}],"$parent":"hxevtsoh"},"t017f2lt":{"type":"image-block","specials":
+{"compressible":true,"imageCompression":true,"src":"/assets/img/cdn-11.webp"},"id":"t017f2lt","$parent":"hxevtsoh"},"hv
+kabvlx":{"type":"group","specials":{},"id":"hvkabvlx","children":["30ymr0tq","c0xhg0o3"],"$parent":"hxevtsoh"},"30ymr0t
+q":{"type":"text-block","specials":{"tag":"h3","text":"C├┤ d├óu<br>"},"id":"30ymr0tq","desktop":{"animation":{"delay":0
+,"duration":2,"name":"zoomIn","repeat":null},"fontSize":"22"},"mobile":{"animation":{"delay":0,"duration":2,"name":"zoo
+mIn","repeat":null},"fontSize":"22"},"$parent":"hvkabvlx"},"c0xhg0o3":{"type":"text-block","specials":{"tag":"h3","text
+":"NGß╗îC UY├èN<br>"},"id":"c0xhg0o3","desktop":{"animation":{"delay":0,"duration":2,"name":"zoomIn","repeat":null},"fo
+ntSize":"18"},"mobile":{"animation":{"delay":0,"duration":2,"name":"zoomIn","repeat":null},"fontSize":"18"},"$parent":"
+hvkabvlx"},"ztt2ek0t":{"type":"image-block","specials":{"compressible":true,"imageCompression":true,"src":"/assets/img/
+extra-122.webp"},"id":"ztt2ek0t","events":[{"action":"lightbox","appTarget":"","hoverColor":"","id":"e5k699zg","target"
+:"/assets/img/extra-122.webp","type":"click"}],"$parent":"hxevtsoh"},"56ix719w":{"type":"image-block","specials":{"comp
+ressible":true,"imageCompression":true,"src":"/assets/img/extra-123.webp"},"id":"56ix719w","events":[{"action":"lightbo
+x","appTarget":"","hoverColor":"","id":"e5k699zg","target":"/assets/img/extra-123.webp","type":"click"}],"$parent":"hxe
+vtsoh"},"o1lk6qej":{"type":"group","specials":{},"id":"o1lk6qej","children":["uc7ifka2","bqdm32ih"],"$parent":"hxevtsoh
+"},"uc7ifka2":{"type":"text-block","specials":{"tag":"h3","text":"Ch├║ rß╗â<br>"},"id":"uc7ifka2","desktop":{"animation
+":{"delay":0,"duration":2,"name":"zoomIn","repeat":null},"fontSize":"22"},"mobile":{"animation":{"delay":0,"duration":2
+,"name":"zoomIn","repeat":null},"fontSize":"22"},"$parent":"o1lk6qej"},"bqdm32ih":{"type":"text-block","specials":{"tag
+":"h3","text":"TRUNG D┼¿NG<br>"},"id":"bqdm32ih","desktop":{"animation":{"delay":0,"duration":2,"name":"zoomIn","repeat
+":null},"fontSize":"18"},"mobile":{"animation":{"delay":0,"duration":2,"name":"zoomIn","repeat":null},"fontSize":"18"},
+"$parent":"o1lk6qej"}},"extra_css":"/* --- Vß╗ï tr├¡ v├á Kiß╗âu d├íng Icon (Lu├┤n cß╗æ ─æß╗ïnh d╞░ß╗¢i b├¬n tr├íi) --- 
+*/\r\n.music-icon {\r\n    position: fixed;\r\n    bottom: 20px;\r\n    left: 20px;\r\n    width: 50px;\r\n    height: 
+50px;\r\n    cursor: pointer;\r\n    z-index: 1000;\r\n    border-radius: 50%;\r\n    display: flex;\r\n    
+align-items: center;\r\n    justify-content: center;\r\n    background-color: #fff;\r\n    box-shadow: 0 0 5px rgba(0, 
+0, 0, 0.2);\r\n}\r\n\r\n/* Kiß╗âu d├íng H├¼nh ß║únh Icon */\r\n.music-icon img {\r\n    width: 100%;\r\n    height: 
+100%;\r\n    object-fit: cover;\r\n    border-radius: 50%;\r\n    transition: transform 0.3s ease;\r\n    position: 
+relative;\r\n    z-index: 2;\r\n}\r\n\r\n/* --- Thanh Gß║ích Ch├⌐o (Khi Tß║«T) --- */\r\n.slash-line {\r\n    
+position: absolute;\r\n    width: 90%;\r\n    height: 3px;\r\n    background-color: #000000;\r\n    transform: 
+rotate(45deg);\r\n    transition: opacity 0.3s ease;\r\n    z-index: 3;\r\n    opacity: 0; \r\n}\r\n\r\n/* Icon khi 
+nhß║íc ─æang Tß║«T (paused) */\r\n.music-icon.paused .slash-line {\r\n    opacity: 1; /* Hiß╗çn gß║ích ch├⌐o 
+*/\r\n}\r\n\r\n/* --- Hiß╗çu ß╗⌐ng Xoay (Khi PH├üT) --- */\r\n.music-icon.playing img {\r\n    animation: spin 5s 
+linear infinite; /* K├¡ch hoß║ít hiß╗çu ß╗⌐ng xoay li├¬n tß╗Ñc */\r\n}\r\n\r\n@keyframes spin {\r\n    from {\r\n      
+  transform: rotate(0deg);\r\n    }\r\n    to {\r\n        transform: rotate(360deg);\r\n    
+}\r\n}\r\n\r\n\r\n\r\n","extra_script":"const musicBtn = document.getElementById(&quot;music-btn&quot;);\r\nconst 
+music = document.getElementById(&quot;bg-music&quot;);\r\nlet isPlaying = false;\r\n\r\n// Click v├áo n├║t bß║¡t/tß║»t 
+nhß║íc\r\nmusicBtn.addEventListener(&quot;click&quot;, () =&gt; {\r\n  if (isPlaying) {\r\n    music.pause();\r\n    
+musicBtn.classList.remove(&quot;active&quot;);\r\n    musicBtn.classList.add(&quot;paused&quot;);\r\n  } else {\r\n    
+music.play().then(() =&gt; {\r\n      musicBtn.classList.add(&quot;active&quot;);\r\n      
+musicBtn.classList.remove(&quot;paused&quot;);\r\n    }).catch(err =&gt; console.log(&quot;User interaction 
+required:&quot;, err));\r\n  }\r\n  isPlaying = !isPlaying;\r\n});\r\n\r\n// ≡ƒæë Tß╗▒ ─æß╗Öng ph├ít khi user t╞░╞íng 
+t├íc bß║Ñt kß╗│ tr├¬n trang\r\ndocument.body.addEventListener(&quot;click&quot;, () =&gt; {\r\n  if (!isPlaying) {\r\n 
+   music.play().then(() =&gt; {\r\n      musicBtn.classList.add(&quot;active&quot;);\r\n      
+musicBtn.classList.remove(&quot;paused&quot;);\r\n      isPlaying = true;\r\n    }).catch(err =&gt; {});\r\n  }\r\n}, 
+{ once: true });\r\n\r\n\r\n\r\n\r\n"}}
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                    
+
+SyntaxError: Expected ',' or '}' after property value in JSON at position 1376 (line 1 column 1377)
+    at JSON.parse (<anonymous>)
+    at file:///C:/Users/Admin/Projects/wedding-invite/.rea/tree.mjs:10:19
+    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)
+    at async node:internal/modules/esm/loader:647:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.22.1
