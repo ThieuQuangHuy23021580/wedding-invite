@@ -2,8 +2,8 @@ const fs = require('fs');
 const WS = process.argv[2];
 const URL = process.argv[3];
 const OUT = process.argv[4];
-const W = Number(process.argv[5] || 1000);
-const H = Number(process.argv[6] || 900);
+const W = Number(process.argv[5] || 1400);
+const H = Number(process.argv[6] || 1200);
 
 const ws = new WebSocket(WS);
 let id = 0;
@@ -36,15 +36,13 @@ ws.addEventListener('open', async () => {
       width: W, height: H, deviceScaleFactor: 1, mobile: false,
     });
     await send('Page.navigate', { url: URL });
-    await sleep(2500);
-    const metrics = await send('Page.getLayoutMetrics');
-    const full = await send('Page.captureScreenshot', {
+    await sleep(3500);
+    const shot = await send('Page.captureScreenshot', {
       format: 'png',
       captureBeyondViewport: true,
-      clip: { x: 0, y: 0, width: W, height: Math.min(metrics.cssContentSize.height, 3000), scale: 1 },
     });
-    fs.writeFileSync(OUT, Buffer.from(full.data, 'base64'));
-    console.log('saved', OUT, 'h=' + metrics.cssContentSize.height);
+    fs.writeFileSync(OUT, Buffer.from(shot.data, 'base64'));
+    console.log('saved', OUT, Buffer.from(shot.data, 'base64').length);
   } catch (e) {
     console.error('ERR', e.message);
   } finally {

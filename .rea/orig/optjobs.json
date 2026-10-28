@@ -1,0 +1,79 @@
+﻿[
+    {
+        "url":  "https://statics.pancake.vn/web-media/10/b8/58/fc/6020ea65fc1e8f96abd9ad4fe8a076a741206076d6eae4ad6b2e6059-w:4211-h:6317-l:10077716-t:image/jpeg.jpg",
+        "maxH":  1350,
+        "quality":  0.85,
+        "maxW":  900,
+        "src":  "img/cdn-34.webp"
+    },
+    {
+        "url":  "https://statics.pancake.vn/web-media/29/53/35/27/5831f41a302346882d5d27e6045239964943f28922858cd76bf73a42-w:4080-h:6120-l:10717882-t:image/jpeg.jpg",
+        "maxH":  1350,
+        "quality":  0.85,
+        "maxW":  900,
+        "src":  "img/cdn-35.webp"
+    },
+    {
+        "url":  "https://statics.pancake.vn/web-media/4f/8b/9e/aa/26e7db961d630db13de504738efba11b60b0f381f31f27d64b9ea4ff-w:5504-h:8256-l:16914520-t:image/jpeg.jpg",
+        "maxH":  1350,
+        "quality":  0.85,
+        "maxW":  900,
+        "src":  "img/cdn-36.webp"
+    },
+    {
+        "url":  "https://statics.pancake.vn/web-media/87/ad/ea/70/c0c261ca5cd8e2aaff3d73b343d35a691db42243f705d18774865d53-w:4586-h:6879-l:14662827-t:image/jpeg.jpg",
+        "maxH":  1350,
+        "quality":  0.85,
+        "maxW":  900,
+        "src":  "img/cdn-37.webp"
+    },
+    {
+        "url":  "https://statics.pancake.vn/web-media/7b/fc/10/fe/634bf38c6c6bd2751b93c6c3e716c2ebd3636fa205537dfde56fe5dc-w:4636-h:6954-l:13036573-t:image/jpeg.jpg",
+        "maxH":  1350,
+        "quality":  0.85,
+        "maxW":  900,
+        "src":  "img/cdn-38.webp"
+    },
+    {
+        "url":  "https://statics.pancake.vn/web-media/a8/54/10/bf/2d3de050eceadebb6acc696bd4d2c0b9b615149aabf78f3b9c8114d1-w:4289-h:6433-l:10792351-t:image/jpeg.jpg",
+        "maxH":  1350,
+        "quality":  0.85,
+        "maxW":  900,
+        "src":  "img/cdn-39.webp"
+    },
+    {
+        "url":  "https://statics.pancake.vn/web-media/b1/60/40/22/ee3c7393dc3ddb318b81c4262a531e91856e88922597d5aca4c5b491-w:5504-h:8256-l:12809910-t:image/jpeg.jpg",
+        "maxH":  1350,
+        "quality":  0.85,
+        "maxW":  900,
+        "src":  "img/cdn-40.webp"
+    },
+    {
+        "url":  "https://statics.pancake.vn/web-media/c7/d0/0b/c6/80ede8f1daed7d4ecd63fa2b6d57a0ba59d10f9fca4e384d35cf3b46-w:5123-h:7685-l:12767337-t:image/jpeg.jpg",
+        "maxH":  1350,
+        "quality":  0.85,
+        "maxW":  900,
+        "src":  "img/cdn-41.webp"
+    },
+    {
+        "url":  "https://statics.pancake.vn/web-media/27/ca/50/b0/422d2b76e7bb366703972632da073c0dad9db00054282d6fd27033dc-w:5082-h:7623-l:12789718-t:image/jpeg.jpg",
+        "maxH":  1350,
+        "quality":  0.85,
+        "maxW":  900,
+        "src":  "img/cdn-42.webp"
+    },
+    {
+        "url":  "https://statics.pancake.vn/web-media/97/fb/20/e3/33a6bc9e62e7a4632fa2d760ec631a53433ac2201c9a95dab2b48e00-w:4789-h:7183-l:10775047-t:image/jpeg.jpg",
+        "maxH":  1350,
+        "quality":  0.85,
+        "maxW":  900,
+        "src":  "img/cdn-43.webp"
+    },
+    {
+        "url":  "https://statics.pancake.vn/web-media/8b/30/a1/33/a1d386fa6585b18a69207071d796baf4f9b61700ca89d060be0aef1e-w:0-h:0-l:6925297-t:audio/mpeg.mp3",
+        "maxH":  1350,
+        "quality":  0.85,
+        "maxW":  900,
+        "src":  "audio/audio-19.mp3"
+    }
+]

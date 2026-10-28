@@ -1,0 +1,72 @@
+https://a.pancake.vn/js/app.js?vsn=5
+INLINE:
+      !function(e,t,i){var a,n=e.innerWidth;if(e[i]=(true||n<768)?"mobile":"desktop","desktop"==e[i])a="width=" + 960 + ", user-scalable=no, initial-scale=1.0";else{var o=1;w=420;w!=n&&(o=n/w),a="wid
+INLINE:
+      // Generate external id for pixel tracking
+      window.getPixelExternalID = () => (() => {
+        var match = document.cookie.match(/(?:^|; )external_id=([^;]*)/);
+        var id = match && m
+INLINE:
+      window.TRACK_VIEW_CONTENT = true
+    
+INLINE:
+    !function(e,t){var a=t.createElement("script");a.async=!0,a.src="https://a.pancake.vn/js/app.js?vsn=5";
+    var n=t.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n),e.ab=function(
+INLINE:!function(){var A,o;A=function(A){window.is_support_webp=A},(o=new Image).onload=function(){A(o.width>0&&o.height>0)},o.onerror=function(){A(!1)},o.src="data:image/webp;base64,"+({lossless:"UklGRhoAAA
+INLINE:let elements=[];function handleLazyLoad(){let e=new WeakMap;elements.forEach(t=>{let a=window.scrollY||window.scrollTop||0,l=window.innerHeight||window.clientHeight||0,r=t.getBoundingClientRect();if(!
+INLINE:window.event_data={"CONST":{"MOBILE_ONLY":true,"VERSION_ID":"80147c80-db8b-4a24-b38b-b0adbbbee2a4","AUTO_SAVE_DRAFT":true,"AUTO_SAVE_INFO_USER":false,"AUTO_COMPLETE_FORM_IN_POPUP":false,"SEND_TO_THANK
+INLINE:window.gtracks =[];window.gga="";window.ggt="";window.ggads="";
+INLINE:window.pageViewConverID = "webcake.vsmrzre2bt";window.viewContentConverID = "webcake.vs8stnwnjd"
+INLINE:
+      window.page_language = "default"
+      window.page_currency = "VND"
+
+      Object.defineProperty(window, 'ORGANIZATION_ID', {
+        value: 98112,
+        writable: false,
+        configurable
+INLINE:
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(registrations => {
+          registrations.forEach(registration => registration.unregister())
+       
+https://e.ewedding.site/webcake/v4/357eb32e-9653-438d-a1d4-b7a0917b162f
+INLINE:
+window.addEventListener('load', function() {
+    const audio = document.getElementById('myAudio');
+    const musicIcon = document.getElementById('musicIcon');
+    if (!audio || !musicIcon) return;
+
+ 
+INLINE:
+      ;(function(){
+        const params = new URLSearchParams(window.location.search)
+        const ref_url = params.get('ref_url')
+        if (ref_url) {
+          window.open(ref_url, '_self')
+   
+INLINE:
+      // Ignore animate on url params
+      ;(function(){
+        const params = new URLSearchParams(window.location.search)
+        const urlParams = new URLSearchParams(window.location.search);
+   
+INLINE:
+      const windowHeight = () => {
+        const doc = document.documentElement
+        doc.style.setProperty('--viewport-height', `${window.innerHeight}px`)
+      }
+      window.addEventListener('re
+https://a.pancake.vn/js/fingerprint.js
+INLINE:
+      (() => {
+        const SOURCE = [
+          'facebook', 'fbclid', 'google', 'gclid', 'tiktok', 'ttclid', 'zalo', 'gidzl',
+          'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_
+https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092
+INLINE:try{const musicBtn = document.getElementById("music-btn");
+const music = document.getElementById("bg-music");
+let isPlaying = false;
+
+// Click vào nút bật/tắt nhạc
+musicBtn.addEventListener("click", (

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+  body { margin: 0; background: #222; font-family: monospace; color: #fff; }
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 8px; }
+  .cell { background: #333; border-radius: 6px; padding: 6px; }
+  .cell img { width: 100%; height: 150px; object-fit: contain; background:
+      repeating-conic-gradient(#444 0% 25%, #3a3a3a 0% 50%) 50%/16px 16px; }
+  .lbl { font-size: 11px; margin-top: 4px; color: #8f8; }
+</style>
+</head>
+<body>
+<div class="grid" id="g"></div>
+<script>
+  const files = ['img-00.webp','img-01.webp','img-02.webp','img-03.webp','img-04.webp','img-05.webp',
+                 'img-06.webp','img-07.webp','img-08.png','img-09.webp','img-10.webp','img-11.webp',
+                 'img-12.webp','img-13.webp','img-14.webp','img-15.png','img-16.webp','texture-paper.webp'];
+  const g = document.getElementById('g');
+  files.forEach((f) => {
+    const d = document.createElement('div');
+    d.className = 'cell';
+    d.innerHTML = `<img src="../assets/img/${f}" alt=""><div class="lbl">${f}</div>`;
+    g.appendChild(d);
+  });
+</script>
+</body>
+</html>
