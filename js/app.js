@@ -203,6 +203,11 @@
         return;
       }
 
+      if (!data.bancuadaure) {
+        alert('Vui lòng chọn bạn là khách mời Nhà gái hay Nhà trai.');
+        return;
+      }
+
       if (!data.ban_se_tham_du_chu) {
         alert('Vui lòng xác nhận bạn có tham dự hay không.');
         return;

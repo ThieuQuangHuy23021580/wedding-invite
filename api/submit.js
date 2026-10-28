@@ -43,6 +43,12 @@ module.exports = async function handler(req, res) {
       });
     }
 
+    if (!["Nhà gái", "Nhà trai"].includes(guestOf)) {
+      return res.status(400).json({
+        message: "Vui lòng chọn bạn là khách mời Nhà gái hay Nhà trai."
+      });
+    }
+
     if (
       guestOf.length > 200 ||
       wish.length > 5000 ||
