@@ -127,8 +127,8 @@
   function initCountdown() {
     var root = document.querySelector('.com-countdown');
     if (!root) return;
-    // 11:30 on 20.01.2026, Vietnam time (UTC+7)
-    var target = new Date('2026-01-20T11:30:00+07:00').getTime();
+    // 16:00 on 27.11.2026, Vietnam time (UTC+7)
+    var target = new Date('2026-11-27T16:00:00+07:00').getTime();
 
     function pad(n) { return (n < 10 ? '0' : '') + n; }
 
