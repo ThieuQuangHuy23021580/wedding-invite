@@ -341,6 +341,10 @@
       document.addEventListener(evt, onFirstGesture, { capture: true, passive: true });
     });
     audio.addEventListener('ended', pause);
+
+    // Best-effort autoplay on page open. If browser policy rejects it,
+    // the first-gesture listeners above remain active and can retry.
+    play();
   }
 
   /* --------------------------------------------------------------- boot */
