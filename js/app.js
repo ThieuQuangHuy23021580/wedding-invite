@@ -7,6 +7,22 @@
      background to none, so revealing an element simply means dropping
      the class and letting the layout CSS take over. */
   var lazyNodes = [];
+  var lazyObserver = null;
+
+  function revealLazy(el) {
+    if (el.classList.contains('lazy')) el.classList.remove('lazy');
+    if (el.hasAttribute('data-src')) {
+      if (el.tagName === 'IMG') {
+        // The observer already gates when this image starts loading, so let
+        // the browser fetch and decode it immediately once it is near view.
+        el.loading = 'eager';
+        el.decoding = 'async';
+        if ('fetchPriority' in el) el.fetchPriority = 'auto';
+      }
+      el.src = el.getAttribute('data-src');
+      el.removeAttribute('data-src');
+    }
+  }
 
   function collectLazy() {
     lazyNodes = Array.prototype.slice.call(document.querySelectorAll('.lazy, [data-src]'));
@@ -16,6 +32,21 @@
       var bv = getComputedStyle(b).getPropertyValue('--type') || 0;
       return ~~av - ~~bv;
     });
+
+    if ('IntersectionObserver' in window) {
+      // Reveal images before they enter view, without measuring every lazy
+      // element on every scroll frame.
+      var margin = Math.max(window.innerHeight * 2, 1200);
+      lazyObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          revealLazy(entry.target);
+          lazyObserver.unobserve(entry.target);
+        });
+      }, { rootMargin: margin + 'px 0px' });
+      lazyNodes.forEach(function (el) { lazyObserver.observe(el); });
+      lazyNodes = [];
+    }
   }
 
   function handleLazyLoad() {
@@ -35,11 +66,7 @@
         remaining.push(el);
         continue;
       }
-      if (el.classList.contains('lazy')) el.classList.remove('lazy');
-      if (el.hasAttribute('data-src')) {
-        el.src = el.getAttribute('data-src');
-        el.removeAttribute('data-src');
-      }
+      revealLazy(el);
     }
 
     lazyNodes = remaining;
@@ -153,7 +180,12 @@
 
   /* --------------------------------------------------------- reveal anim */
   function initReveal() {
-    var items = document.querySelectorAll('.animation, .is-animation');
+    var candidates = document.querySelectorAll('.animation, .is-animation');
+    var items = Array.prototype.filter.call(candidates, function (item) {
+      // Scroll-revealed elements are scheduled in small batches by the page
+      // reveal observer; don't let this observer reveal them simultaneously.
+      return !item.classList.contains('scroll-reveal');
+    });
     if (!items.length) return;
     if (!('IntersectionObserver' in window)) {
       for (var i = 0; i < items.length; i++) items[i].classList.add('is-visible');
@@ -272,13 +304,24 @@
     var icon = document.getElementById('musicIcon');
     if (!audio || !icon) return;
     var playing = false;
+    var playPending = false;
+    var userStarted = false;
 
     function play() {
+      if (playing || playPending) return;
+      playPending = true;
       audio.play().then(function () {
         playing = true;
         icon.classList.add('playing');
         icon.classList.remove('paused');
-      }).catch(function () { /* blocked until user gesture */ });
+        userStarted = true;
+        ['pointerdown', 'touchstart', 'keydown', 'click', 'wheel'].forEach(function (evt) {
+          document.removeEventListener(evt, onFirstGesture, true);
+        });
+      }).catch(function () {
+        // Keep listening: the first play attempt may be rejected while the
+        // browser is still loading or has not accepted this gesture.
+      }).finally(function () { playPending = false; });
     }
     function pause() {
       audio.pause();
@@ -286,25 +329,28 @@
       icon.classList.remove('playing');
       icon.classList.add('paused');
     }
+    function onFirstGesture(event) {
+      if (userStarted || icon.contains(event.target)) return;
+      play();
+    }
     icon.addEventListener('click', function (e) {
       e.stopPropagation();
       playing ? pause() : play();
     });
-    audio.addEventListener('ended', pause);
-    ['scroll', 'touchstart', 'wheel'].forEach(function (evt) {
-      window.addEventListener(evt, function once() {
-        window.removeEventListener(evt, once);
-        if (!playing) play();
-      }, { once: true, passive: true });
+    ['pointerdown', 'touchstart', 'keydown', 'click', 'wheel'].forEach(function (evt) {
+      document.addEventListener(evt, onFirstGesture, { capture: true, passive: true });
     });
+    audio.addEventListener('ended', pause);
   }
 
   /* --------------------------------------------------------------- boot */
   function boot() {
     collectLazy();
-    handleLazyLoad();
-    window.addEventListener('scroll', handleLazyLoad, { passive: true });
-    window.addEventListener('resize', handleLazyLoad);
+    if (!lazyObserver) {
+      handleLazyLoad();
+      window.addEventListener('scroll', handleLazyLoad, { passive: true });
+      window.addEventListener('resize', handleLazyLoad);
+    }
 
     initReveal();
     initCountdown();
